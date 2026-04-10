@@ -1,0 +1,675 @@
+2026/03/19 09:44:42.985 | INFO | NLog init completed.
+2026/03/19 09:44:43.055 | INFO | XML Init Completed.
+2026/03/19 09:44:43.469 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:44:43.480 | INFO | ProgramManager init completed
+2026/03/19 09:44:44.768 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:44:46.812 | DEBUG | test mode unlocking 1/3
+2026/03/19 09:44:47.935 | DEBUG | test mode unlocking 2/3
+2026/03/19 09:44:49.632 | DEBUG | test mode unlocked 3/3
+2026/03/19 09:44:49.632 | DEBUG | Test Mode: True
+2026/03/19 09:44:51.274 | INFO | NationCode Changed: ja
+2026/03/19 09:47:24.854 | INFO | NLog init completed.
+2026/03/19 09:47:24.903 | INFO | XML Init Completed.
+2026/03/19 09:47:26.641 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:47:26.652 | INFO | ProgramManager init completed
+2026/03/19 09:47:28.471 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:47:31.909 | DEBUG | test mode unlocking 1/3
+2026/03/19 09:47:33.294 | DEBUG | test mode unlocking 2/3
+2026/03/19 09:47:35.111 | DEBUG | test mode unlocked 3/3
+2026/03/19 09:47:35.111 | DEBUG | Test Mode: True
+2026/03/19 09:47:36.330 | INFO | NationCode Changed: ja
+2026/03/19 09:47:59.279 | INFO | NLog init completed.
+2026/03/19 09:47:59.326 | INFO | XML Init Completed.
+2026/03/19 09:48:00.962 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:48:00.962 | INFO | ProgramManager init completed
+2026/03/19 09:48:02.774 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:48:16.200 | INFO | NLog init completed.
+2026/03/19 09:48:16.248 | INFO | XML Init Completed.
+2026/03/19 09:48:17.889 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:48:17.904 | INFO | ProgramManager init completed
+2026/03/19 09:48:19.697 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:48:22.715 | DEBUG | test mode unlocking 1/3
+2026/03/19 09:48:24.384 | DEBUG | test mode unlocking 2/3
+2026/03/19 09:48:26.367 | DEBUG | test mode unlocked 3/3
+2026/03/19 09:48:26.367 | DEBUG | Test Mode: True
+2026/03/19 09:48:26.978 | INFO | NationCode Changed: ja
+2026/03/19 09:50:03.584 | INFO | NLog init completed.
+2026/03/19 09:50:03.635 | INFO | XML Init Completed.
+2026/03/19 09:50:05.368 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:50:05.383 | INFO | ProgramManager init completed
+2026/03/19 09:50:07.299 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:50:12.605 | DEBUG | test mode unlocking 1/3
+2026/03/19 09:50:14.431 | DEBUG | test mode unlocking 2/3
+2026/03/19 09:50:17.788 | DEBUG | test mode unlocked 3/3
+2026/03/19 09:50:17.789 | DEBUG | Test Mode: True
+2026/03/19 09:50:18.860 | INFO | NationCode Changed: ja
+2026/03/19 09:51:18.215 | INFO | NLog init completed.
+2026/03/19 09:51:18.261 | INFO | XML Init Completed.
+2026/03/19 09:51:19.918 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:51:19.930 | INFO | ProgramManager init completed
+2026/03/19 09:51:21.750 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:51:24.123 | INFO | NationCode Changed: ja
+2026/03/19 09:51:24.964 | INFO | GatheringState: Gathering
+2026/03/19 09:51:25.113 | INFO | Offer SDP length: 4704
+2026/03/19 09:51:25.120 | INFO | GatheringState: Complete
+2026/03/19 09:52:05.510 | INFO | NLog init completed.
+2026/03/19 09:52:05.559 | INFO | XML Init Completed.
+2026/03/19 09:52:05.683 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:52:05.683 | INFO | ProgramManager init completed
+2026/03/19 09:52:07.484 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:52:13.948 | INFO | NationCode Changed: zh
+2026/03/19 09:52:15.043 | INFO | GatheringState: Gathering
+2026/03/19 09:52:15.191 | INFO | Offer SDP length: 4704
+2026/03/19 09:52:15.197 | INFO | GatheringState: Complete
+2026/03/19 09:52:24.632 | INFO | NLog init completed.
+2026/03/19 09:52:24.632 | INFO | XML Init Completed.
+2026/03/19 09:52:24.869 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:52:24.869 | INFO | ProgramManager init completed
+2026/03/19 09:52:25.263 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:52:25.610 | INFO | NationCode Changed: ja
+2026/03/19 09:52:30.458 | INFO | NLog init completed.
+2026/03/19 09:52:30.460 | INFO | XML Init Completed.
+2026/03/19 09:52:31.060 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:52:31.060 | INFO | ProgramManager init completed
+2026/03/19 09:52:31.081 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:52:31.257 | INFO | NationCode Changed: ja
+
+2026/03/19 09:52:36.252 | ERROR | HTTP error: Request timeout 
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+
+2026/03/19 09:52:36.257 | ERROR | HTTP body:  
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+2026/03/19 09:53:31.302 | INFO | NLog init completed.
+2026/03/19 09:53:31.305 | INFO | XML Init Completed.
+2026/03/19 09:53:31.549 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:53:31.554 | INFO | ProgramManager init completed
+2026/03/19 09:53:31.614 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:53:32.696 | INFO | NationCode Changed: ja
+2026/03/19 09:53:46.177 | INFO | NLog init completed.
+2026/03/19 09:53:46.179 | INFO | XML Init Completed.
+2026/03/19 09:53:46.420 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:53:46.420 | INFO | ProgramManager init completed
+2026/03/19 09:53:46.481 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:53:47.047 | INFO | NationCode Changed: ja
+2026/03/19 09:53:52.801 | INFO | NLog init completed.
+2026/03/19 09:53:52.806 | INFO | XML Init Completed.
+2026/03/19 09:53:53.037 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:53:53.039 | INFO | ProgramManager init completed
+2026/03/19 09:53:53.096 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:53:54.042 | INFO | NationCode Changed: zh
+2026/03/19 09:54:01.181 | INFO | NLog init completed.
+2026/03/19 09:54:01.181 | INFO | XML Init Completed.
+2026/03/19 09:54:01.457 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:54:01.460 | INFO | ProgramManager init completed
+2026/03/19 09:54:01.477 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:54:04.384 | DEBUG | test mode unlocking 1/3
+2026/03/19 09:54:05.830 | DEBUG | test mode unlocking 2/3
+2026/03/19 09:54:07.583 | DEBUG | test mode unlocked 3/3
+2026/03/19 09:54:07.583 | DEBUG | Test Mode: True
+2026/03/19 09:54:08.259 | INFO | NationCode Changed: ja
+2026/03/19 09:54:10.937 | INFO | NLog init completed.
+2026/03/19 09:54:10.937 | INFO | XML Init Completed.
+2026/03/19 09:54:11.178 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:54:11.179 | INFO | ProgramManager init completed
+2026/03/19 09:54:11.221 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:55:23.165 | INFO | NLog init completed.
+2026/03/19 09:55:23.224 | INFO | XML Init Completed.
+2026/03/19 09:55:23.351 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:55:23.351 | INFO | ProgramManager init completed
+2026/03/19 09:55:23.807 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:55:26.318 | INFO | NationCode Changed: ja
+2026/03/19 09:55:26.675 | INFO | GatheringState: Gathering
+2026/03/19 09:55:26.781 | INFO | Offer SDP length: 4704
+2026/03/19 09:55:26.789 | INFO | GatheringState: Complete
+2026/03/19 09:55:28.705 | INFO | False has been canceled.
+2026/03/19 09:55:28.727 | INFO | NLog init completed.
+2026/03/19 09:55:28.727 | INFO | XML Init Completed.
+2026/03/19 09:55:29.008 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:55:29.008 | INFO | ProgramManager init completed
+2026/03/19 09:55:29.030 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:55:32.473 | INFO | NationCode Changed: ja
+2026/03/19 09:55:36.021 | INFO | Gender Selected: M
+2026/03/19 09:55:37.478 | INFO | code added: 
+2026/03/19 09:55:38.608 | INFO | code added: IL
+2026/03/19 09:55:39.727 | INFO | True has been canceled.
+2026/03/19 09:55:42.110 | INFO | code added: IL
+2026/03/19 09:55:44.224 | INFO | code added: 
+2026/03/19 09:55:45.553 | INFO | code added: R
+2026/03/19 09:55:46.668 | INFO | code added: J
+
+2026/03/19 09:55:47.819 | ERROR | HTTP error: Request timeout 
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+
+2026/03/19 09:55:47.822 | ERROR | HTTP body:  
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+2026/03/19 09:55:56.047 | INFO | NLog init completed.
+2026/03/19 09:55:56.098 | INFO | XML Init Completed.
+2026/03/19 09:55:56.481 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:55:56.492 | INFO | ProgramManager init completed
+2026/03/19 09:55:57.744 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:56:43.068 | INFO | NLog init completed.
+2026/03/19 09:56:43.118 | INFO | XML Init Completed.
+2026/03/19 09:56:43.250 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:56:43.261 | INFO | ProgramManager init completed
+2026/03/19 09:56:43.701 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:56:45.781 | INFO | NationCode Changed: zh
+2026/03/19 09:56:46.164 | INFO | GatheringState: Gathering
+2026/03/19 09:56:46.265 | INFO | Offer SDP length: 4704
+2026/03/19 09:56:46.273 | INFO | GatheringState: Complete
+2026/03/19 09:56:49.527 | INFO | Gender Selected: M
+2026/03/19 09:56:51.506 | INFO | M has been canceled.
+2026/03/19 09:56:53.377 | INFO | Gender Selected: M
+2026/03/19 09:56:54.439 | INFO | code added: 
+2026/03/19 09:56:56.494 | INFO |  has been canceled.
+2026/03/19 09:56:57.844 | INFO | code added: 
+2026/03/19 09:56:59.237 | INFO | code added: IL
+
+2026/03/19 09:57:07.322 | ERROR | HTTP error: Request timeout 
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+
+2026/03/19 09:57:07.322 | ERROR | HTTP body:  
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+2026/03/19 09:57:17.895 | INFO | IL has been canceled.
+2026/03/19 09:57:18.528 | INFO |  has been canceled.
+2026/03/19 09:58:31.748 | INFO | NLog init completed.
+2026/03/19 09:58:31.807 | INFO | XML Init Completed.
+2026/03/19 09:58:33.625 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 09:58:33.643 | INFO | ProgramManager init completed
+2026/03/19 09:58:35.535 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 09:58:39.045 | DEBUG | test mode unlocking 1/3
+2026/03/19 09:58:40.272 | DEBUG | test mode unlocking 2/3
+2026/03/19 09:58:42.085 | DEBUG | test mode unlocked 3/3
+2026/03/19 09:58:42.085 | DEBUG | Test Mode: True
+2026/03/19 09:58:43.786 | INFO | NationCode Changed: ja
+2026/03/19 10:01:13.698 | INFO | NLog init completed.
+2026/03/19 10:01:13.761 | INFO | XML Init Completed.
+2026/03/19 10:01:14.223 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:01:14.232 | INFO | ProgramManager init completed
+2026/03/19 10:01:15.455 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:01:50.943 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:01:51.095 | DEBUG | test mode unlock failed
+2026/03/19 10:01:51.983 | DEBUG | test mode unlock failed
+2026/03/19 10:01:52.152 | DEBUG | test mode unlock failed
+2026/03/19 10:01:52.306 | DEBUG | test mode unlock failed
+2026/03/19 10:01:52.455 | DEBUG | test mode unlock failed
+2026/03/19 10:01:55.453 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:01:56.743 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:01:58.447 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:01:58.447 | DEBUG | Test Mode: True
+2026/03/19 10:01:59.939 | INFO | NationCode Changed: ja
+2026/03/19 10:06:31.338 | INFO | NLog init completed.
+2026/03/19 10:06:31.388 | INFO | XML Init Completed.
+2026/03/19 10:06:31.838 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:06:31.838 | INFO | ProgramManager init completed
+2026/03/19 10:06:33.045 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:06:35.904 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:06:37.217 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:06:39.094 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:06:39.094 | DEBUG | Test Mode: True
+2026/03/19 10:06:40.651 | INFO | NationCode Changed: ja
+2026/03/19 10:07:21.710 | INFO |  has been canceled.
+2026/03/19 10:07:21.733 | INFO | NLog init completed.
+2026/03/19 10:07:21.733 | INFO | XML Init Completed.
+2026/03/19 10:07:22.085 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:07:22.085 | INFO | ProgramManager init completed
+2026/03/19 10:07:22.106 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:07:23.164 | INFO | NationCode Changed: ja
+2026/03/19 10:07:52.770 | INFO |  has been canceled.
+2026/03/19 10:07:52.784 | INFO | NLog init completed.
+2026/03/19 10:07:52.789 | INFO | XML Init Completed.
+2026/03/19 10:07:53.037 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:07:53.039 | INFO | ProgramManager init completed
+2026/03/19 10:07:53.150 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:07:53.844 | INFO | NationCode Changed: ja
+2026/03/19 10:08:25.435 | INFO | NLog init completed.
+2026/03/19 10:08:25.435 | INFO | XML Init Completed.
+2026/03/19 10:08:25.687 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:08:25.687 | INFO | ProgramManager init completed
+2026/03/19 10:08:25.794 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:08:26.634 | INFO | NationCode Changed: zh
+2026/03/19 10:09:43.773 | INFO | NLog init completed.
+2026/03/19 10:09:43.825 | INFO | XML Init Completed.
+2026/03/19 10:09:44.234 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:09:44.245 | INFO | ProgramManager init completed
+2026/03/19 10:09:45.466 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:09:49.746 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:09:51.118 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:09:54.343 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:09:54.343 | DEBUG | Test Mode: True
+2026/03/19 10:09:55.132 | INFO | NationCode Changed: zh
+2026/03/19 10:10:20.708 | INFO |  has been canceled.
+2026/03/19 10:10:20.731 | INFO | NLog init completed.
+2026/03/19 10:10:20.731 | INFO | XML Init Completed.
+2026/03/19 10:10:20.972 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:10:20.972 | INFO | ProgramManager init completed
+2026/03/19 10:10:21.344 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:10:22.265 | INFO | NationCode Changed: zh
+2026/03/19 10:11:02.736 | INFO |  has been canceled.
+2026/03/19 10:11:02.751 | INFO | NLog init completed.
+2026/03/19 10:11:02.757 | INFO | XML Init Completed.
+2026/03/19 10:11:02.997 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:11:02.997 | INFO | ProgramManager init completed
+2026/03/19 10:11:03.377 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:11:05.667 | INFO | NationCode Changed: zh
+2026/03/19 10:13:02.648 | INFO | NLog init completed.
+2026/03/19 10:13:02.700 | INFO | XML Init Completed.
+2026/03/19 10:13:02.829 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:13:02.840 | INFO | ProgramManager init completed
+2026/03/19 10:13:03.349 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:13:05.769 | INFO | NationCode Changed: zh
+2026/03/19 10:13:06.128 | INFO | GatheringState: Gathering
+2026/03/19 10:13:06.231 | INFO | Offer SDP length: 4706
+2026/03/19 10:13:06.231 | INFO | GatheringState: Complete
+2026/03/19 10:13:28.797 | INFO | NLog init completed.
+2026/03/19 10:13:28.850 | INFO | XML Init Completed.
+2026/03/19 10:13:29.270 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:13:29.281 | INFO | ProgramManager init completed
+2026/03/19 10:13:30.601 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:14:02.219 | INFO | NationCode Changed: zh
+2026/03/19 10:14:02.708 | INFO | GatheringState: Gathering
+2026/03/19 10:14:02.813 | INFO | Offer SDP length: 4706
+2026/03/19 10:14:02.821 | INFO | GatheringState: Complete
+2026/03/19 10:14:32.620 | INFO | NLog init completed.
+2026/03/19 10:14:32.671 | INFO | XML Init Completed.
+2026/03/19 10:14:34.071 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:14:34.071 | INFO | ProgramManager init completed
+2026/03/19 10:14:34.303 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:14:35.228 | INFO | NationCode Changed: zh
+2026/03/19 10:14:35.683 | INFO | GatheringState: Gathering
+2026/03/19 10:14:35.787 | INFO | Offer SDP length: 4706
+2026/03/19 10:14:35.794 | INFO | GatheringState: Complete
+
+2026/03/19 10:14:56.862 | ERROR | HTTP error: Request timeout 
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+
+2026/03/19 10:14:56.867 | ERROR | HTTP body:  
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+2026/03/19 10:22:20.905 | INFO | NLog init completed.
+2026/03/19 10:22:20.965 | INFO | XML Init Completed.
+2026/03/19 10:22:21.099 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:22:21.110 | INFO | ProgramManager init completed
+2026/03/19 10:22:21.630 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:22:29.613 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:22:30.822 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:22:32.557 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:22:32.557 | DEBUG | Test Mode: True
+2026/03/19 10:22:33.314 | INFO | NationCode Changed: zh
+2026/03/19 10:22:53.856 | INFO | NLog init completed.
+2026/03/19 10:22:53.856 | INFO | XML Init Completed.
+2026/03/19 10:22:54.149 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:22:54.149 | INFO | ProgramManager init completed
+2026/03/19 10:22:54.171 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:22:54.676 | INFO | NationCode Changed: ja
+2026/03/19 10:23:27.274 | INFO | NLog init completed.
+2026/03/19 10:23:27.274 | INFO | XML Init Completed.
+2026/03/19 10:23:27.534 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:23:27.534 | INFO | ProgramManager init completed
+2026/03/19 10:23:27.576 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:23:28.114 | INFO | NationCode Changed: ja
+2026/03/19 10:23:43.002 | INFO | NLog init completed.
+2026/03/19 10:23:43.007 | INFO | XML Init Completed.
+2026/03/19 10:23:43.249 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:23:43.249 | INFO | ProgramManager init completed
+2026/03/19 10:23:43.286 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:23:44.366 | INFO | NationCode Changed: en
+2026/03/19 10:23:48.027 | INFO | NLog init completed.
+2026/03/19 10:23:48.027 | INFO | XML Init Completed.
+2026/03/19 10:23:48.272 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:23:48.273 | INFO | ProgramManager init completed
+2026/03/19 10:23:48.307 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:23:49.122 | INFO | NationCode Changed: ja
+2026/03/19 10:26:03.442 | INFO | NLog init completed.
+2026/03/19 10:26:03.497 | INFO | XML Init Completed.
+2026/03/19 10:26:03.632 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:26:03.633 | INFO | ProgramManager init completed
+2026/03/19 10:26:04.184 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:26:08.917 | INFO | NationCode Changed: ja
+2026/03/19 10:26:09.276 | INFO | GatheringState: Gathering
+2026/03/19 10:26:09.383 | INFO | Offer SDP length: 4706
+2026/03/19 10:26:09.383 | INFO | GatheringState: Complete
+2026/03/19 10:26:16.266 | INFO |  has been canceled.
+2026/03/19 10:26:16.288 | INFO | NLog init completed.
+2026/03/19 10:26:16.288 | INFO | XML Init Completed.
+2026/03/19 10:26:16.534 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:26:16.534 | INFO | ProgramManager init completed
+2026/03/19 10:26:16.582 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:26:24.575 | INFO | NLog init completed.
+2026/03/19 10:26:24.625 | INFO | XML Init Completed.
+2026/03/19 10:26:25.108 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:26:25.118 | INFO | ProgramManager init completed
+2026/03/19 10:26:26.393 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:26:28.014 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:26:30.449 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:26:32.608 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:26:32.608 | DEBUG | Test Mode: True
+2026/03/19 10:26:43.811 | INFO | NationCode Changed: ja
+2026/03/19 10:28:30.228 | INFO | NLog init completed.
+2026/03/19 10:28:30.289 | INFO | XML Init Completed.
+2026/03/19 10:28:30.426 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:28:30.435 | INFO | ProgramManager init completed
+2026/03/19 10:28:31.057 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:28:35.419 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:28:36.807 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:28:38.631 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:28:38.632 | DEBUG | Test Mode: True
+2026/03/19 10:28:39.250 | INFO | NationCode Changed: zh
+2026/03/19 10:40:57.160 | INFO | NLog init completed.
+2026/03/19 10:40:57.220 | INFO | XML Init Completed.
+2026/03/19 10:40:57.351 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:40:57.351 | INFO | ProgramManager init completed
+2026/03/19 10:40:59.290 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:41:04.127 | INFO | NationCode Changed: zh
+2026/03/19 10:41:05.917 | INFO | GatheringState: Gathering
+2026/03/19 10:41:06.064 | INFO | Offer SDP length: 4706
+2026/03/19 10:41:06.072 | INFO | GatheringState: Complete
+2026/03/19 10:41:19.249 | INFO | NLog init completed.
+2026/03/19 10:41:19.249 | INFO | XML Init Completed.
+2026/03/19 10:41:19.880 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:41:19.883 | INFO | ProgramManager init completed
+2026/03/19 10:41:19.905 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:41:20.214 | INFO | NationCode Changed: ja
+2026/03/19 10:41:25.778 | INFO | Gender Selected: M
+
+2026/03/19 10:41:27.127 | ERROR | HTTP error: Request timeout 
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+
+2026/03/19 10:41:27.133 | ERROR | HTTP body:  
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+2026/03/19 10:41:29.108 | INFO | code added: 
+2026/03/19 10:41:30.521 | INFO | code added: IL
+2026/03/19 10:41:32.086 | INFO | code added: 
+2026/03/19 10:41:33.619 | INFO | code added: T
+2026/03/19 10:41:35.161 | INFO | code added: P
+2026/03/19 10:41:47.689 | INFO | NLog init completed.
+2026/03/19 10:41:47.748 | INFO | XML Init Completed.
+2026/03/19 10:41:47.902 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:41:47.917 | INFO | ProgramManager init completed
+2026/03/19 10:41:49.915 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:41:55.331 | INFO | NationCode Changed: zh
+2026/03/19 10:41:55.704 | INFO | GatheringState: Gathering
+2026/03/19 10:41:55.806 | INFO | Offer SDP length: 4704
+2026/03/19 10:41:55.806 | INFO | GatheringState: Complete
+2026/03/19 10:41:58.959 | INFO | Gender Selected: M
+2026/03/19 10:42:00.223 | INFO | code added: 
+2026/03/19 10:42:02.305 | INFO | code added: IH
+2026/03/19 10:42:04.458 | INFO | code added: 
+2026/03/19 10:42:05.735 | INFO | code added: T
+2026/03/19 10:42:08.624 | INFO | code added: J
+2026/03/19 10:49:21.900 | INFO | NLog init completed.
+2026/03/19 10:49:21.947 | INFO | XML Init Completed.
+2026/03/19 10:49:22.402 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:49:22.416 | INFO | ProgramManager init completed
+2026/03/19 10:49:23.546 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:49:25.216 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:49:26.786 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:49:28.487 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:49:28.487 | DEBUG | Test Mode: True
+2026/03/19 10:49:29.265 | INFO | NationCode Changed: zh
+2026/03/19 10:49:44.816 | INFO | Gender Selected: W
+2026/03/19 10:54:02.414 | INFO | NLog init completed.
+2026/03/19 10:54:02.469 | INFO | XML Init Completed.
+2026/03/19 10:54:02.602 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:54:02.602 | INFO | ProgramManager init completed
+2026/03/19 10:54:03.466 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:54:06.386 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:54:07.683 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:54:12.389 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:54:12.389 | DEBUG | Test Mode: True
+2026/03/19 10:54:13.293 | INFO | NationCode Changed: ja
+2026/03/19 10:54:43.831 | INFO | NLog init completed.
+2026/03/19 10:54:43.876 | INFO | XML Init Completed.
+2026/03/19 10:54:43.998 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:54:44.007 | INFO | ProgramManager init completed
+2026/03/19 10:54:45.681 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:54:52.369 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:54:55.576 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:54:56.180 | DEBUG | test mode unlock failed
+2026/03/19 10:55:01.152 | DEBUG | test mode unlocking 1/3
+2026/03/19 10:55:02.632 | DEBUG | test mode unlocking 2/3
+2026/03/19 10:55:04.494 | DEBUG | test mode unlocked 3/3
+2026/03/19 10:55:04.494 | DEBUG | Test Mode: True
+2026/03/19 10:55:05.388 | INFO | NationCode Changed: ja
+2026/03/19 10:55:14.168 | INFO | Gender Selected: M
+2026/03/19 10:55:18.042 | INFO | NLog init completed.
+2026/03/19 10:55:18.042 | INFO | XML Init Completed.
+2026/03/19 10:55:18.274 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:55:18.274 | INFO | ProgramManager init completed
+2026/03/19 10:55:18.326 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:55:18.890 | INFO | NationCode Changed: zh
+2026/03/19 10:55:26.833 | INFO | NLog init completed.
+2026/03/19 10:55:26.839 | INFO | XML Init Completed.
+2026/03/19 10:55:27.063 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:55:27.063 | INFO | ProgramManager init completed
+2026/03/19 10:55:27.094 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/19 10:55:28.281 | INFO | NationCode Changed: ja
+2026/03/19 10:55:47.798 | INFO | Gender Selected: M
+2026/03/19 10:55:48.991 | INFO | code added: 
+2026/03/19 10:55:50.279 | INFO | code added: IL
+2026/03/19 10:55:51.390 | INFO | code added: 
+2026/03/19 10:55:52.455 | INFO | code added: T
+2026/03/19 10:55:57.049 | INFO | code added: P
+2026/03/19 10:55:59.275 | INFO | redis get AI START
+2026/03/19 10:55:59.275 | INFO | AI START execute
+2026/03/19 10:55:59.275 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/03/19 10:56:04.800 | INFO | redis get AI complete
+2026/03/19 10:56:04.805 | INFO | ai complete execute
+2026/03/19 10:56:04.931 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/19 10:56:05.520 | INFO | Upload Completed: https://storage.googleapis.com/kdream/9c25ed8a-fb59-4446-a86a-d202e87350ca
+2026/03/19 10:56:18.985 | INFO | NLog init completed.
+2026/03/19 10:56:18.985 | INFO | XML Init Completed.
+2026/03/19 10:56:19.247 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/19 10:56:19.247 | INFO | ProgramManager init completed
+2026/03/19 10:56:19.268 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+
+2026/03/19 16:59:09.828 | WARN | Redis disconnected: StackExchange.Redis.RedisConnectionException: SocketFailure (ReadSocketError/ConnectionReset, last-recv: 186) on 192.168.1.164:6379/Interactive, Idle/Faulted, last: INFO, origin: ReadFromPipe, outstanding: 1, last-read: 81s ago, last-write: 21s ago, unanswered-write: 21s ago, keep-alive: 60s, state: ConnectedEstablished, mgr: 9 of 10 available, in: 0, in-pipe: 0, out-pipe: 0, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, v: 2.10.1.65101 ---> Pipelines.Sockets.Unofficial.ConnectionResetException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.
+                                                                                                                                                                                                                                   ---> System.Net.Sockets.SocketException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.
+                                                                                                                                                                                                                                  
+  at Pipelines.Sockets.Unofficial.Internal.Throw.Socket (System.Int32 errorCode) [0x00000] in /_/src/Pipelines.Sockets.Unofficial/Internal/Throw.cs:59 
+  at Pipelines.Sockets.Unofficial.SocketAwaitableEventArgs.<GetResult>g__ThrowSocketException|10_0 (System.Net.Sockets.SocketError e) [0x00000] in /_/src/Pipelines.Sockets.Unofficial/SocketAwaitableEventArgs.cs:86 
+  at Pipelines.Sockets.Unofficial.SocketAwaitableEventArgs.GetResult () [0x00026] in /_/src/Pipelines.Sockets.Unofficial/SocketAwaitableEventArgs.cs:79 
+  at Pipelines.Sockets.Unofficial.SocketConnection.DoReceiveAsync () [0x0011f] in /_/src/Pipelines.Sockets.Unofficial/SocketConnection.Receive.cs:64 
+   --- End of inner exception stack trace ---
+  at System.IO.Pipelines.PipeCompletion.ThrowLatchedException () [0x00000] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.PipeCompletion.IsCompletedOrThrow () [0x00012] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.Pipe.GetReadResult (System.IO.Pipelines.ReadResult& result) [0x00000] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.Pipe.GetReadAsyncResult () [0x00042] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.Pipe+DefaultPipeReader.GetResult (System.Int16 token) [0x00000] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.Threading.Tasks.ValueTask`1[TResult].get_Result () [0x0002e] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at StackExchange.Redis.PhysicalConnection.ReadFromPipe () [0x000a4] in /_/src/StackExchange.Redis/PhysicalConnection.cs:2074 
+   --- End of inner exception stack trace --- 
+-
+ ConnectionMultiplexer.TryCompleteHandler => <>c.<InitRedis>b__6_1 => NLogManager.Warn
+
+
+2026/03/19 16:59:10.800 | WARN | Redis disconnected: StackExchange.Redis.RedisConnectionException: SocketFailure (ReadSocketError/ConnectionReset, last-recv: 20) on 192.168.1.164:6379/Subscription, Idle/Faulted, last: PING, origin: ReadFromPipe, outstanding: 1, last-read: 81s ago, last-write: 21s ago, unanswered-write: 21s ago, keep-alive: 60s, state: ConnectedEstablished, mgr: 9 of 10 available, in: 0, in-pipe: 0, out-pipe: 0, last-heartbeat: 0s ago, last-mbeat: 0s ago, global: 0s ago, v: 2.10.1.65101 ---> Pipelines.Sockets.Unofficial.ConnectionResetException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.
+                                                                                                                                                                                                                                   ---> System.Net.Sockets.SocketException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.
+                                                                                                                                                                                                                                  
+  at Pipelines.Sockets.Unofficial.Internal.Throw.Socket (System.Int32 errorCode) [0x00000] in /_/src/Pipelines.Sockets.Unofficial/Internal/Throw.cs:59 
+  at Pipelines.Sockets.Unofficial.SocketAwaitableEventArgs.<GetResult>g__ThrowSocketException|10_0 (System.Net.Sockets.SocketError e) [0x00000] in /_/src/Pipelines.Sockets.Unofficial/SocketAwaitableEventArgs.cs:86 
+  at Pipelines.Sockets.Unofficial.SocketAwaitableEventArgs.GetResult () [0x00026] in /_/src/Pipelines.Sockets.Unofficial/SocketAwaitableEventArgs.cs:79 
+  at Pipelines.Sockets.Unofficial.SocketConnection.DoReceiveAsync () [0x0011f] in /_/src/Pipelines.Sockets.Unofficial/SocketConnection.Receive.cs:64 
+   --- End of inner exception stack trace ---
+  at System.IO.Pipelines.PipeCompletion.ThrowLatchedException () [0x00000] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.PipeCompletion.IsCompletedOrThrow () [0x00012] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.Pipe.GetReadResult (System.IO.Pipelines.ReadResult& result) [0x00000] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.Pipe.GetReadAsyncResult () [0x00042] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.IO.Pipelines.Pipe+DefaultPipeReader.GetResult (System.Int16 token) [0x00000] in <8237fc429057410cb2ea693dfe59a19c>:0 
+  at System.Threading.Tasks.ValueTask`1[TResult].get_Result () [0x0002e] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at StackExchange.Redis.PhysicalConnection.ReadFromPipe () [0x000a4] in /_/src/StackExchange.Redis/PhysicalConnection.cs:2074 
+   --- End of inner exception stack trace --- 
+-
+ ConnectionMultiplexer.TryCompleteHandler => <>c.<InitRedis>b__6_1 => NLogManager.Warn
+

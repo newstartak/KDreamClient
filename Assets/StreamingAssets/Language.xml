@@ -1,0 +1,1410 @@
+<Root>
+  
+  <!-- 공통 텍스트 -->
+  <general>
+
+    <!-- 다음 -->
+    <next>
+
+      <ko>다음</ko>
+      <ja>次へ</ja>
+      <zh>下一步</zh>
+      <en>Next</en>
+
+    </next>
+
+    <!-- 이전 -->
+    <back>
+
+      <ko>뒤로가기</ko>
+      <ja>戻る</ja>
+      <zh>上一步</zh>
+      <en>Back</en>
+
+    </back>
+
+    <!-- 처음으로 -->
+
+      <home>
+
+        <ko>처음으로</ko>
+        <ja>ホームへ</ja>
+        <zh>返回首页</zh>
+        <en>Home</en>
+
+      </home>
+
+  </general>
+
+  <!-- 메인 화면 -->
+  <main>
+
+  </main>
+
+  <!-- 질문 화면 -->
+  <ask>
+
+    <!-- 준비 화면 텍스트 -->
+    <ready>
+
+      <ko>지금부터\n당신의 전생을 알아보겠습니다.</ko>
+      <ja>これより\nあなたの前世を診断します。</ja>
+      <zh>现在开始\n您将探索自己的前世。</zh>
+      <en>I shall now\nreveal your past life.</en>
+
+    </ready>
+
+    <!-- 성별 선택 텍스트 -->
+    <gender>
+    
+      <ko>당신의 성별을 선택하세요.</ko>
+      <ja>性別を選択してください。</ja>
+      <zh>请选择您的性别。</zh>
+      <en>Please select your gender.</en>
+
+    </gender>
+
+    <!-- 남성 선택 텍스트 -->
+    <man>
+    
+      <ko>남성</ko>
+      <ja>男性</ja>
+      <zh>男性</zh>
+      <en>Male</en>
+
+    </man>
+
+    <!-- 여성 선택 텍스트 -->
+    <woman>
+    
+      <ko>여성</ko>
+      <ja>女性</ja>
+      <zh>女性</zh>
+      <en>Female</en>
+
+    </woman>
+
+    <!-- 기타 선택 텍스트 -->
+    <other>
+    
+      <ko>응답하지 않음</ko>
+      <ja>回答しない</ja>
+      <zh>不便透露</zh>
+      <en>Prefer not to say</en>
+
+    </other>
+
+
+    <!-- 질문 번호 모음 -->
+    <titles>
+
+      <title>
+        <ko>1번 질문</ko>
+        <ja>1つ目の質問</ja>
+        <zh>第1个问题</zh>
+        <en>Question 1</en>
+      </title>
+
+      <title>
+        <ko>2번 질문</ko>
+        <ja>2つ目の質問</ja>
+        <zh>第2个问题</zh>
+        <en>Question 2</en>
+      </title>
+      
+      <title>
+        <ko>3번 질문</ko>
+        <ja>3つ目の質問</ja>
+        <zh>第3个问题</zh>
+        <en>Question 3</en>
+      </title>
+
+      <title>
+        <ko>4번 질문</ko>
+        <ja>4つ目の質問</ja>
+        <zh>第4个问题</zh>
+        <en>Question 4</en>
+      </title>
+
+      <title>
+        <ko>마지막 질문</ko>
+        <ja>最後の質問</ja>
+        <zh>最后一个问题</zh>
+        <en>Final question</en>
+      </title>
+
+    </titles>
+
+    <qnas>
+
+      <qna>
+        <q>
+          <ko>눈을 뜨니 조선의 수도 한양입니다.\n사람들이 붐비는 광화문 한 가운데...\n당신의 본능적인 선택은?</ko>
+          <ja>目を覚ますと、\nそこは朝鮮時代の首都・漢陽（ハニャン）でした。\n多くの人で賑わう光化門（クァンファムン）の真ん中で……\nあなたの直感的な選択は？</ja>
+          <zh>一睁眼，竟是朝鲜王都汉阳。\n人来人往的光化门中央……\n你的本能选择是？</zh>
+          <en>You awaken to find yourself in Hanyang,\nthe capital of the Joseon Dynasty.\nStanding amidst the bustling crowds of Gwanghwamun..\nWhat does your instinct command?</en>
+        </q>
+
+        <as>
+          <a>
+            <ko>"내가 조선에 오다니!" \n사람들에게 말을 걸어 정보를 습득한다.</ko>
+            <ja>「まさか、私が朝鮮時代に！？」\nとりあえず人に話しかけて情報を集めます。</ja>
+            <zh>"我来到朝鲜了！"\n对周围的人说话获取信息。</zh>
+            <en>"Heavens, I am in Joseon!" \nI shall speak with the populace to gather intelligence.</en>
+          </a>
+
+          <a>
+            <ko>"일단 상황 파악부터..." \n조용한 골목으로 이동해 관찰한다.</ko>
+            <ja>「まずは状況把握から……」\n目立たない静かな路地に移動して観察します。</ja>
+            <zh>"先掌握情况……" \n走向安静的小巷观察。</zh>
+            <en>"I must discern the situation first..." \nI withdraw to a secluded alley to observe unseen.</en>
+          </a>
+
+          <a>
+            <ko>"말도 안돼." \n볼을 꼬집어 꿈인지 확인한다.</ko>
+            <ja>「ありえない」\n頬をつねって夢かどうか確認します。</ja>
+            <zh>"这不可能。"\n捏自己脸颊确认是不是在做梦。</zh>
+            <en>"Preposterous." \nI pinch my cheek to verify if this is but a dream.</en>
+          </a>
+        </as>
+
+      </qna>
+
+      <qna>
+
+        <q>
+          <ko>신비로운 도사가 \n당신에게 다가왔습니다. \n이곳에 살기 위해 필요한 것을 \n고르라고 합니다. \n무엇을 선택하시겠습니까?</ko>
+          <ja>神秘的な道士があなたに近づき、\nこの地で生きるために必要なものを選べと言います。\n何を選びますか？</ja>
+          <zh>一位神秘的道士向你走来，说：\n"为了在这里生存，你需要选择一样东西。"\n你会选择什么？</zh>
+          <en>A mysterious sage draws near. \nHe bids you choose an essential item \nto dwell in this land. \nWhat shall be your choice?</en>
+        </q>
+
+        <as>
+          <a code = "IL">
+            <ko>세상의 \n비기가 담긴 책</ko>
+            <ja>世界の秘密が\n記された本</ja>
+            <zh>藏有世界秘密的\n书</zh>
+            <en>A Tome of the World's\nSecret Arts</en>
+          </a>
+
+          <a code = "EM">
+            <ko>사람을 \n부릴 수 있는 마패</ko>
+            <ja>人を動かせる\n馬牌（マペ）</ja>
+            <zh>能驱使人仆役的\n符牌</zh>
+            <en>A Medallion to\nCommand the Masses</en>
+          </a>
+
+          <a code = "EB">
+            <ko>적을 \n제압하는 검</ko>
+            <ja>敵を制圧する\n剣</ja>
+            <zh>制服敌人的\n宝剑</zh>
+            <en>A Blade to\nVanquish Foes</en>
+          </a>
+
+          <a code = "IH">
+            <ko>원하는 걸 \n그려낼 수 있는 붓</ko>
+            <ja>望むものを\n描き出せる筆</ja>
+            <zh>能绘出心愿的\n神笔</zh>
+            <en>A Brush to\nManifest Desires</en>
+          </a>
+        </as>
+
+      </qna>
+
+      <qna>
+
+        <q>
+          <ko>준비물을 받아 길을 걷던 중, \n돈을 잃어버린 여인이 길에서 울며 \n도움을 요청합니다. \n어떻게 도와줄까요?</ko>
+          <ja>アイテムを受け取り歩き出すと、\nお金を失くした女性が泣きながら助けを求めてきました。\nどうやって助けますか？</ja>
+          <zh>你刚收到礼物，正提着它走路。\n这时，一位女士在路边哭泣，\n说她丢了钱。\n你该如何帮助她？</zh>
+          <en>Item in hand, you continue your journey. \nA weeping woman, having lost her fortune, \nbeseeches your aid. \nHow shall you assist her?</en>
+        </q>
+
+        <as>
+          <a>
+            <ko>"생각할 겨를이 없다!" \n몸이 먼저 반응해 \n여인이 가리키는 곳으로 달려간다.</ko>
+            <ja>「考える暇はありません！」\n体が先に反応し、\n女性が指差す方へ走ります。</ja>
+            <zh>"没时间犹豫了！"\n立刻行动，\n朝她指的方向跑去。</zh>
+            <en>"No time for thought!" \nMy body reacts first, \ndashing towards where she points.</en>
+          </a>
+
+          <a>
+            <ko>"저런... 울지마시오." \n여인을 위로하며 사정을 묻는다.</ko>
+            <ja>「そんな…泣かないでください」\n女性を慰めながら事情を聞きます。</ja>
+            <zh>"哎呀……别哭了。"\n安慰她，同时询问情况。</zh>
+            <en>"Alas... pray, do not weep." \nI comfort her and inquire of her plight.</en>
+          </a>
+
+          <a>
+            <ko>"관아가 있는 곳으로 갑시다" \n여인을 데리고 관아로 간다.</ko>
+            <ja>「官衙（役所）に行きましょう」\n女性を連れて官衙（かんが）へ向かいます。</ja>
+            <zh>"我们去官府吧。"\n带她去官衙。</zh>
+            <en>"Let us proceed to the Magistrate's bureau." \nI escort her to the government office.</en>
+          </a>
+        </as>
+
+      </qna>
+
+      <qna>
+
+        <q>      
+          <ko>누군가 \n여인의 돈을 훔친 사람을 봤다고 합니다. \n당신의 반응은?</ko>
+          <ja>誰かが、お金を盗んだ犯人を見たと言っています。\nあなたの反応は？</ja>
+          <zh>有人目击了偷走妇人钱财的窃贼。\n你的反应是？</zh>
+          <en>Someone \nclaims to have witnessed the thief \nwho stole her fortune. \nWhat is your reaction?</en>
+        </q>
+
+        <as>
+          <a code = "R">
+            <ko>"실수를 해선 안 돼." \n목격자의 말을 꼼꼼하게 외운다.</ko>
+            <ja>「ミスは許されません。」\n目撃者の話をしっかり覚えます。</ja>
+            <zh>"不能出错！"\n仔细复述目击者的描述。</zh>
+            <en>"There must be no error." \nI meticulously memorize the witness's testimony.</en>
+          </a>
+
+          <a code = "T">
+            <ko>"잘 됐습니다!" \n여인과 함께 기뻐한다.</ko>
+            <ja>「よかったです！」\n女性と一緒に喜びます。</ja>
+            <zh>"太好了！"\n和妇人一起欢呼。</zh>
+            <en>"What splendid news!" \nI share in the lady's joy.</en>
+          </a>
+
+          <a code = "T">
+            <ko>"이렇게 생겼소?" \n목격자의 말을 그림으로 그려 찾아 나선다.</ko>
+            <ja>「こういう顔ですか？」\n目撃者の話を絵に描いて探しに行きます。</ja>
+            <zh>"是长这样的吗？"\n根据目击者的描述画图并开始寻找。</zh>
+            <en>"Is this the visage?" \nI sketch a likeness based on the account and set out.</en>
+          </a>
+        </as>
+
+      </qna>
+
+      <qna>
+
+        <q>
+          <ko>결국 당신은 범인을 잡았습니다. \n당신이 도와준 여인은 조선의 공주였습니다. \n임금님께서 당신에게 내리는 포상, \n무엇을 선택하겠습니까?</ko>
+          <ja>ついに、あなたは犯人を捕まえました。\n助けた女性は、なんと朝鮮の王女でした。\n王様から下される褒美、\nあなたは何を選びますか？</ja>
+          <zh>最终你抓住了罪犯。\n你帮助的那位女士是朝鲜的公主。\n国王陛下赐予你的奖赏，\n你会选择什么呢？</zh>
+          <en>Ultimately, you have apprehended the culprit. \nThe lady you assisted was, in truth, the Princess of Joseon. \nHis Majesty bestows a reward upon you. \nWhat shall be your choice?</en>
+        </q>
+
+        <as>
+          <a code = "J">
+            <ko>역사에 기록될 나의 이름</ko>
+            <ja>「歴史に残る私の名前」</ja>
+            <zh>名垂青史的荣誉</zh>
+            <en>My name inscribed in the annals of history</en>
+          </a>
+
+          <a code = "P">
+            <ko>두둑한 돈</ko>
+            <ja>「莫大な報奨金」</ja>
+            <zh>丰厚的赏金</zh>
+            <en>A chest overflowing with riches</en>
+          </a>
+
+          <a code = "P">
+            <ko>자유로운 조선 여행</ko>
+            <ja>「朝鮮での自由な旅」</ja>
+            <zh>随意游历朝鲜的自由</zh>
+            <en>The liberty to wander Joseon freely</en>
+          </a>
+        </as>
+
+      </qna>
+
+    </qnas>
+
+  </ask>
+
+  <!-- 촬영 화면 -->
+  <cam>
+
+    <!-- 촬영 준비 텍스트 1 -->
+    <camReady1>
+
+      <ko>지금부터 AI가 당신의 얼굴을 분석합니다.\n최상의 결과를 위해 별도의 포즈 없이\n자연스러운 자세로 촬영해 주세요.</ko>
+      <ja>AIがあなたの顔を分析します。\n最適な結果を得るため、\nポーズは取らずに自然な姿勢で撮影してください。</ja>
+      <zh>AI正在分析您的面部。\n为了获得最佳结果，\n拍摄的时候，请保持自然姿态，\n无需刻意摆姿势。</zh>
+      <en>AI is now analyzing your face.\nFor the best results,\nplease stand naturally without posing.</en>
+
+    </camReady1>
+
+    <!-- 촬영 준비 텍스트 2 -->
+    <camReady2>
+
+      <ko>마스크와 모자는 벗어주세요.\n준비가 됐다면 촬영 버튼을 누르세요.\n7초 뒤 사진이 찍힙니다.</ko>
+      <ja>準備ができたら、\n撮影ボタンを押してください。\n7秒後に撮影されます。</ja>
+      <zh>准备好了，\n请点击拍摄按钮。\n7秒后将自动拍照。</zh>
+      <en>Please remove your mask and hat.\nPress the shutter button when you are ready. \nThe photo will be taken in 7 seconds.</en>
+
+    </camReady2>
+
+    <!-- 위를 보세요 텍스트 -->
+    <recapture>
+
+      <ko>AI가 얼굴을 인식하지 못했습니다.\n다시 촬영하겠습니다.</ko>
+      <ja>AIが顔を認識できませんでした。\n再撮影します。</ja>
+      <zh>AI未能识别到人脸，\n即将重新拍照</zh>
+      <en>The AI could not detect your face. \nRetaking the photo.</en>
+
+    </recapture>
+
+    <!-- 재촬영 텍스트 -->
+    <lookUp>
+
+      <ko>카메라를 보세요</ko>
+      <ja>カメラを見てください</ja>
+      <zh>请看镜头</zh>
+      <en>Look at the camera</en>
+
+    </lookUp>
+
+    <!-- 촬영 텍스트 -->
+    <capture>
+
+      <ko>촬영하기</ko>
+      <ja>撮影</ja>
+      <zh>拍摄</zh>
+      <en>Capture</en>
+
+    </capture>
+
+  </cam>
+
+  <!-- AI 로딩 화면 -->
+  <loading>
+
+    <!-- 그리는 중 텍스트 -->
+    <drawing>
+
+      <ko>당신의 전생을 그리는 중입니다.</ko>
+      <ja>「あなたの前世を描いています。」</ja>
+      <zh>我正在描绘你的前世。</zh>
+      <en>I am depicting your past life.</en>
+
+    </drawing>
+
+  </loading>
+
+  <!-- 결과 화면 -->
+  <result>
+
+    <!-- 타이틀 텍스트 -->
+    <title>
+
+      <ko>당신이 조선에 태어났다면...</ko>
+      <ja>「もし、朝鮮時代に生まれていたら…」</ja>
+      <zh>如果你出生在朝鲜的话……</zh>
+      <en>What if you were born in the Joseon Dynasty...</en>
+
+    </title>
+
+    <!-- QR 저장 텍스트 -->
+    <qrSave>
+
+      <ko>QR 저장</ko>
+      <ja>QRで保存</ja>
+      <zh>扫码保存</zh>
+      <en>Save via QR</en>
+
+    </qrSave>
+
+    <!-- 체험 종료 텍스트 -->
+    <exit>
+
+      <ko>체험 종료</ko>
+      <ja>体験を終了</ja>
+      <zh>结束体验</zh>
+      <en>Finish</en>
+
+    </exit>
+
+    <!-- QR 타이틀 텍스트 -->
+    <qrTitle>
+
+      <ko>QR을 스캔하여 이미지를 저장하세요.</ko>
+      <ja>「QRコードを読み取って、画像を保存してください。</ja>
+      <zh>扫描二维码，以收藏此画影。</zh>
+      <en>Scan the QR code to preserve your portrait.</en>
+
+    </qrTitle>
+
+    <!-- 직업들 텍스트 -->
+    <job1>
+      <man>
+        <ko>임금</ko>
+        <ja>国王 (ワン)</ja>
+        <zh>国王</zh>
+        <en>Imgeum</en>
+      </man>
+      <woman>
+        <ko>중전</ko>
+        <ja>中殿 (チュンジョン)</ja>
+        <zh>中殿</zh>
+        <en>Jungjeon</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#CEO #리더</ko>
+          <ja>#CEO #リーダー</ja>
+          <zh>#CEO #领导者</zh>
+          <en>#CEO #Leader</en>
+        </man>
+        <woman>
+          <ko>#영부인 #여성리더</ko>
+          <ja>#ファーストレディ #女性リーダー</ja>
+          <zh>#第一夫人 #女性领袖</zh>
+          <en>#FirstLady #FemaleLeader</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>임금은 조선시대 왕이었습니다. \n당신은 넓은 시야로 세상을 움직이는 지도자입니다.</ko>
+          <ja>「国王」は朝鮮時代の最高統治者でした。\nあなたは広い視野で世界を動かすリーダーです。</ja>
+          <zh>“国王”为朝鲜王朝至尊。‌ \n您‌胸怀天下，其谋略可扭转时局，威仪震四海。</zh>
+          <en>ImGuem was the ruler of the Joseon Dynasty. \nYou are a leader who moves the world with a broad vision.</en>
+        </man>
+        <woman>
+          <ko>중전은 내명부를 다스리고 왕을 보필하던 조선 최고의 여성 지도자였습니다. \n당신은 넓은 시야로 세상을 움직이는 지도자입니다.</ko>
+          <ja>「中殿」は内命婦（ネミョンブ）を統括し、王を補佐する朝鮮最高の女性指導者でした。\nあなたは広い視野で世界を動かすリーダーです。</ja>
+          <zh>“中殿”是统辖内命妇、辅佐君王的朝鲜最高女性领袖。‌ \n您‌胸怀天下，其谋略可扭转时局，威仪震四海。</zh>
+          <en>Jungjeon was the supreme female leader of Joseon, \ngoverning the royal inner court and assisting the king. \nYou are a leader who moves the world with a broad vision.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>통치력 / 인재 경영</ko>
+        <ja>統治力 / 人材マネジメント</ja>
+        <zh>统治力 / 人才管理</zh>
+        <en>Governance / Talent management</en>
+      </skill>
+      <attitude>
+        <ko>책임감 / 카리스마 / 큰 그림 보는</ko>
+        <ja>責任感 / カリスマ / 大局を見る</ja>
+        <zh>责任感 / 领袖魅力 / 注重大局</zh>
+        <en>Responsibility / Charisma / Big picture thinking</en>
+      </attitude>
+      <code>EMRJ</code>
+    </job1>
+
+
+    <job2>
+      <man>
+        <ko>거상</ko>
+        <ja>巨商 (コサン)</ja>
+        <zh>巨商</zh>
+        <en>Geosang</en>
+      </man>
+      <woman>
+        <ko>거상</ko>
+        <ja>巨商 (コサン)</ja>
+        <zh>巨商</zh>
+        <en>Geosang</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#기업가 #MD</ko>
+          <ja>#起業家 #MD</ja>
+          <zh>#企业家 #MD</zh>
+          <en>#Entrepreneur #Merchandiser</en>
+        </man>
+        <woman>
+          <ko>#기업가 #MD</ko>
+          <ja>#起業家 #MD</ja>
+          <zh>#企业家 #MD</zh>
+          <en>#Entrepreneur #Merchandiser</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>거상은 거대한 상단의 주인이었습니다. \n당신은 세상의 흐름을 읽는 눈이 탁월한 사업가입니다.</ko>
+          <ja>「巨商」は巨大な商団の主人でした。\nあなたは世の中の流れを読む目に優れた、卓越した実業家です。</ja>
+          <zh>"巨商"是统领巨大商团的主人。\n‌您‌独具慧眼，能洞察世间潮流，堪称杰出企业家。</zh>
+          <en>Geosang was the master of a massive guild. \nYou are an exceptional entrepreneur \nwith an eye for reading the flow of the world.</en>
+        </man>
+        <woman>
+          <ko>거상은 거대한 상단의 주인이었습니다. \n당신은 세상의 흐름을 읽는 눈이 탁월한 사업가입니다.</ko>
+          <ja>「巨商」は巨大な商団の主人でした。\nあなたは世の中の流れを読む目に優れた、卓越した実業家です。</ja>
+          <zh>"巨商"是统领巨大商团的主人。‌ \n您‌独具慧眼，能洞察世间潮流，堪称杰出企业家。</zh>
+          <en>Geosang was the master of a massive guild. \nYou are an exceptional entrepreneur \nwith an eye for reading the flow of the world.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>상술 / 네트워킹 / 정보수집</ko>
+        <ja>商才 / ネットワーキング / 情報収集</ja>
+        <zh>经商手腕 / 人脉经营 / 信息收集</zh>
+        <en>Commerce / Networking / Intelligence gathering</en>
+      </skill>
+      <attitude>
+        <ko>도전적 / 활동적 / 수완좋은</ko>
+        <ja>挑戦的 / 活動的 / 腕が利く</ja>
+        <zh>敢于挑战 / 行动力强 / 手腕高明</zh>
+        <en>Challenging / Active / Resourceful</en>
+      </attitude>
+      <code>EMRP</code>
+    </job2>
+
+
+    <job3>
+      <man>
+        <ko>영의정</ko>
+        <ja>領議政 (ヨンイジョン)</ja>
+        <zh>领议政</zh>
+        <en>Yeonguijeong</en>
+      </man>
+      <woman>
+        <ko>상궁</ko>
+        <ja>尚宮 (サングン)</ja>
+        <zh>尚宫</zh>
+        <en>Sanggung</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#총리 #장관</ko>
+          <ja>#総理 #長官</ja>
+          <zh>#总理 #长官</zh>
+          <en>#PrimeMinister #Minister</en>
+        </man>
+        <woman>
+          <ko>#전문경영인 #총괄매니저</ko>
+          <ja>#最高管理者</ja>
+          <zh>#最高管理者</zh>
+          <en>#ChiefAdministrator</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>영의정은 조선시대의 가장 높은 관료직이었습니다. \n당신은 왕을 보필하고 민생을 살피는 관료입니다.</ko>
+          <ja>「領議政」は朝鮮時代で最も高い官職でした。\nあなたは王を補佐し、民の暮らしを思う官僚です。</ja>
+          <zh>"领议政"是朝鲜时代最高职位的官员。\n‌您‌以辅佐君王为己任，心系民生，堪称宰相之材。</zh>
+          <en>Yeonguijeong was the highest-ranking official in Joseon. \nYou are a bureaucrat who assists the King and cares for the peoples livelihood.</en>
+        </man>
+        <woman>
+          <ko>상궁은 궁궐의 운영을 관리하고 통솔하던 고위직 전문 여성이었습니다. \n당신은 철저한 자기관리와 꼼꼼함으로 조직의 중심을 잡는 핵심 인재입니다.</ko>
+          <ja>「尚宮」は宮殿の運営を管理・統率する高位の専門職女性でした。\nあなたは徹底した自己管理と細やかさで、組織の中心を担う中核人材です。</ja>
+          <zh>“尚宫”一职，乃是古代宫廷中执掌全局运营、统管各项事务的高阶女性管理者。\n而您，正以近乎严苛的自我约束与事无巨细的严谨态度，成为锚定组织重心、保障体系高效运转的核心支柱型人才。</zh>
+          <en>Sanggung was high-ranking professional woman \nwho managed and directed the operations of the royal palace. \nYou are a core talent who centers the organization \nthrough strict self-discipline and meticulous attention to detail.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </skill>
+      <attitude>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </attitude>
+      <code>EMTJ</code>
+    </job3>
+
+
+    <job4>
+      <man>
+        <ko>전기수</ko>
+        <ja>伝奇叟 (チョンギス)</ja>
+        <zh>传奇叟</zh>
+        <en>Jeongisu</en>
+      </man>
+      <woman>
+        <ko>책비</ko>
+        <ja>冊婢 (チェクピ)</ja>
+        <zh>册婢</zh>
+        <en>Chaekbi</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#인플루언서 #배우</ko>
+          <ja>#インフルエンサー #俳優</ja>
+          <zh>#网红 #演员</zh>
+          <en>#Influencer #Actor</en>
+        </man>
+        <woman>
+          <ko>#인플루언서 #배우</ko>
+          <ja>#インフルエンサー #俳優</ja>
+          <zh>#网红 #演员</zh>
+          <en>#Influencer #Actor</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>전기수는 소설을 읽어주는 연기자였습니다. \n당신은 사람들의 관심을 끌어내는 매력의 소유자입니다.</ko>
+          <ja>「伝奇叟」は小説を読み上げるパフォーマーでした。\nあなたは人々の関心を引きつける魅力の持ち主です。</ja>
+          <zh>传奇叟乃诵读小说的艺术家。\n您则独具魅力，举手投足间，皆能牢牢攫住观众的目光。</zh>
+          <en>Jeongisu was a performer who recited novels. \nYou are a possessor of charm who captures peoples attention.</en>
+        </man>
+        <woman>
+          <ko>책비는 소설을 읽어주는 연기자였습니다. \n당신은 사람들의 관심을 끌어내는 매력의 소유자입니다.</ko>
+          <ja>「冊婢」は小説を読み上げるパフォーマーでした。\nあなたは人々の関心を引きつける魅力の持ち主です。</ja>
+          <zh>"册婢"乃诵读小说的艺术家。\n您则独具魅力，举手投足间，皆能牢牢攫住观众的目光。</zh>
+          <en>Chaekbi was a performer who recited novels. \nYou are a possessor of charm who captures peoples attention.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>스토리텔링 / 연기력</ko>
+        <ja>ストーリーテリング / 演技力</ja>
+        <zh>讲故事能力 / 演技</zh>
+        <en>Storytelling / Acting</en>
+      </skill>
+      <attitude>
+        <ko>유머러스 / 관종끼 다분 / 순발력</ko>
+        <ja>ユーモラス / 目立ちたがり / 機転が利く</ja>
+        <zh>幽默 / 爱出风头 / 反应敏捷</zh>
+        <en>Humorous / Attention-seeking / Quick-witted</en>
+      </attitude>
+      <code>EMTP</code>
+    </job4>
+
+
+    <job5>
+      <man>
+        <ko>암행어사</ko>
+        <ja>暗行御史 (アメンオサ)</ja>
+        <zh>暗行御史</zh>
+        <en>Amhaengeosa</en>
+      </man>
+      <woman>
+        <ko>다모</ko>
+        <ja>茶母 (ダモ)</ja>
+        <zh>茶母</zh>
+        <en>Damo</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#경찰관</ko>
+          <ja>警察官</ja>
+          <zh>#警察</zh>
+          <en>#Police Officer</en>
+        </man>
+        <woman>
+          <ko>#경찰특공대 #형사</ko>
+          <ja>#警察官</ja>
+          <zh>#警察</zh>
+          <en>#Police Officer</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>암행어사는 형사처럼 부정부패를 밝히는 사람이었습니다. \n당신은 불의를 용서하지 않는 정의의 사도입니다.</ko>
+          <ja>「暗行御史」は刑事のように不正を暴く官吏でした。\nあなたは不正を許さない正義の使徒です。</ja>
+          <zh>"暗行御史"乃侦探型官员，专揭腐败。\n您以铁面惩恶，护佑正义。</zh>
+          <en>Amhaengeosar was a figure who uncovered corruption like a detective. \nYou are an apostle of justice \nwho does not tolerate unrighteousness.</en>
+        </man>
+        <woman>
+          <ko>다모는 형사처럼 부정부패를 밝히는 사람이었습니다. \n당신은 불의를 용서하지 않는 정의의 사도입니다.</ko>
+          <ja>「茶母」は刑事のように不正を暴く官吏でした。\nあなたは不正を許さない正義の使徒です。</ja>
+          <zh>"茶母"乃侦探型官员，专揭腐败。\n您以铁面惩恶，护佑正义。</zh>
+          <en>Damo was a figure who uncovered corruption like a detective. \nYou are an apostle of justice \nwho does not tolerate unrighteousness.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </skill>
+      <attitude>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </attitude>
+      <code>ILRJ</code>
+    </job5>
+
+
+    <job6>
+      <man>
+        <ko>성균관유생</ko>
+        <ja>成均館儒生 \n(ソンギュングァン・ユセン)</ja>
+        <zh>成均馆儒生</zh>
+        <en>Sungkyunkwan Yusaeng</en>
+      </man>
+      <woman>
+        <ko>성균관 유생</ko>
+        <ja>成均館儒生 \n(ソンギュングァン・ユセン)</ja>
+        <zh>成均馆儒生</zh>
+        <en>Sungkyunkwan Yusaeng</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#영재 #대학생</ko>
+          <ja>#英才 #エリート学生</ja>
+          <zh>#国家英才 #顶尖学子</zh>
+          <en>#Prodigy #EliteScholar</en>
+        </man>
+        <woman>
+          <ko>#영재 #대학생</ko>
+          <ja>#英才 #エリート学生</ja>
+          <zh>#国家英才 #顶尖学子</zh>
+          <en>#Prodigy #EliteScholar</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>성균관 유생은 국가에서 키우는 영재였습니다. \n당신은 세상을 바꾸기 위해 노력하는 열정의 화신입니다.</ko>
+          <ja>「成均館儒生」は国家が育成する英才でした。\nあなたは世界を変えるために努力を惜しまない、情熱の化身です。</ja>
+          <zh>“成均馆儒生”，乃是国家倾尽心力培育的栋梁之材。\n而您，正是怀揣着改变世界的宏愿，以源源不断的热忱与持之以恒的努力，\n成为这份热血理想的生动注脚与热情化身。</zh>
+          <en>Sungkyunkwan Yusaeng was an elite scholar nurtured by the state. \nYou are the incarnation of passion, \nconstantly striving to change the world.</en>
+        </man>
+        <woman>
+          <ko>성균관 유생은 국가에서 키우는 영재였습니다. \n당신은 세상을 바꾸기 위해 노력하는 열정의 화신입니다.</ko>
+          <ja>「成均館儒生」は国家が育成する英才でした。\nあなたは世界を変えるために努力を惜しまない、情熱の化身です。</ja>
+          <zh>“成均馆儒生”，乃是国家倾尽心力培育的栋梁之材。\n而您，正是怀揣着改变世界的宏愿，以源源不断的热忱与持之以恒的努力，\n成为这份热血理想的生动注脚与热情化身。</zh>
+          <en>Sungkyunkwan Yusaeng was an elite scholar nurtured by the state. \nYou are the incarnation of passion, \nconstantly striving to change the world.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </skill>
+      <attitude>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </attitude>
+      <code>ILRP</code>
+    </job6>
+
+
+    <job7>
+      <man>
+        <ko>어의</ko>
+        <ja>御医 (オイ)</ja>
+        <zh>御医</zh>
+        <en>Eoui</en>
+      </man>
+      <woman>
+        <ko>의녀</ko>
+        <ja>医女 (イニョ)</ja>
+        <zh>医女</zh>
+        <en>Uinyeo</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#간호사 #의사</ko>
+          <ja>#看護師 #医師</ja>
+          <zh>#护士 #医生</zh>
+          <en>#Nurse #Doctor</en>
+        </man>
+        <woman>
+          <ko>#간호사 #의사</ko>
+          <ja>#看護師 #医師</ja>
+          <zh>#护士 #医生</zh>
+          <en>#Nurse #Doctor</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>어의는 왕의 건강을 돌보던 최고의 의사였습니다. \n당신은 완벽하면서도 따뜻한 마음을 가진 고귀한 치유자입니다.</ko>
+          <ja>「御医」は王の健康を管理する最高の医師でした。\nあなたは完璧でありながら温かい心を持つ高貴な癒し手です。</ja>
+          <zh>“御医”乃君王之医官，精于医道。\n您以仁术疗疾，温暖人心。</zh>
+          <en>Eoui was the supreme doctor who cared for the Kings health. \nYou are a noble healer possessing both \nperfection and a warm heart.</en>
+        </man>
+        <woman>
+          <ko>의녀는 왕실의 건강을 돌보던 의료인이었습니다. \n당신은 완벽하면서도 따뜻한 마음을 가진 고귀한 치유자입니다.</ko>
+          <ja>「医女」は王の健康を管理する最高の医師でした。\nあなたは完璧でありながら温かい心を持つ高貴な癒し手です。</ja>
+          <zh>“医女”乃君王之医官，精于医道。\n您以仁术疗疾，温暖人心。</zh>
+          <en>Uinyeo was the supreme doctor who cared for the Kings health. \nYou are a noble healer possessing both \nperfection and a warm heart.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>의술 / 케어(간호)</ko>
+        <ja>医術 / ケア(看護)</ja>
+        <zh>医术 / 护理</zh>
+        <en>Medicine / Care (nursing)</en>
+      </skill>
+      <attitude>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </attitude>
+      <code>ILTJ</code>
+    </job7>
+
+
+    <job8>
+      <man>
+        <ko>국수</ko>
+        <ja>国手 (ククス)</ja>
+        <zh>国手</zh>
+        <en>Guksu</en>
+      </man>
+      <woman>
+        <ko>국수</ko>
+        <ja>国手 (ククス)</ja>
+        <zh>国手</zh>
+        <en>Guksu</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#바둑기사</ko>
+          <ja>囲碁棋士</ja>
+          <zh>#围棋棋手</zh>
+          <en>#Go Player</en>
+        </man>
+        <woman>
+          <ko>#바둑기사</ko>
+          <ja>#囲碁棋士</ja>
+          <zh>#围棋棋手</zh>
+          <en>#Go Player</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>국수는 실력이 뛰어난 전문 바둑기사였습니다. \n당신은 한 수 앞을 내다보는 전략가입니다.</ko>
+          <ja>「国手」は実力が飛び抜けたプロの棋士でした。\nあなたは常に一手先を見通す戦略家です。</ja>
+          <zh>"国手"乃围棋之宗师，棋艺超群。\n您以远见卓识，运筹帷幄。</zh>
+          <en>Guksu was a professional Go player of exceptional skill. \nYou are a strategist who looks one move ahead.</en>
+        </man>
+        <woman>
+          <ko>국수는 실력이 뛰어난 전문 바둑기사였습니다. \n당신은 한 수 앞을 내다보는 전략가입니다.</ko>
+          <ja>「国手」は実力が飛び抜けたプロの棋士でした。\nあなたは常に一手先を見通す戦略家です。</ja>
+          <zh>"国手"乃围棋之宗师，棋艺超群。\n您以远见卓识，运筹帷幄。</zh>
+          <en>Guksu was a professional Go player of exceptional skill. \nYou are a strategist who looks one move ahead.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </skill>
+      <attitude>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </attitude>
+      <code>ILTP</code>
+    </job8>
+
+  
+    <job9>
+      <man>
+        <ko>명창</ko>
+        <ja>名唱 (ミョンチャン)</ja>
+        <zh>名唱</zh>
+        <en>Myeongchang</en>
+      </man>
+      <woman>
+        <ko>명창</ko>
+        <ja>名唱 (ミョンチャン)</ja>
+        <zh>名唱</zh>
+        <en>Myeongchang</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#K-POP 아티스트 #가수</ko>
+          <ja>#K-POPアーティスト #歌手</ja>
+          <zh>#K-POP艺人 #歌手</zh>
+          <en>#K-POP_Artist #Singer</en>
+        </man>
+        <woman>
+          <ko>#K-POP 아티스트 #가수</ko>
+          <ja>#K-POPアーティスト #歌手</ja>
+          <zh>#K-POP艺人 #歌手</zh>
+          <en>#K-POP_Artist #Singer</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>명창은 가장 뛰어난 가수에게 주어지던 호칭이었습니다. \n당신은 소리로 사람의 마음을 움직이는 뛰어난 음악가입니다.</ko>
+          <ja>「名唱」は最も優れた歌い手に与えられる称号でした。\nあなたは歌声で人の心を動かす素晴らしい音楽家です。</ja>
+          <zh>“名唱”乃歌者之魁首，声震云霄。\n您以天籁之音，扣人心弦。</zh>
+          <en>Myeongchang was a title given to the most outstanding vocalists. \nYou are a remarkable musician who moves peoples hearts with sound.</en>
+        </man>
+        <woman>
+          <ko>명창은 가장 뛰어난 가수에게 주어지던 호칭이었습니다. \n당신은 소리로 사람의 마음을 움직이는 뛰어난 음악가입니다.</ko>
+          <ja>「名唱」は最も優れた歌い手に与えられる称号でした。\nあなたは歌声で人の心を動かす素晴らしい音楽家です。</ja>
+          <zh>“名唱”乃歌者之魁首，声震云霄。\n您以天籁之音，扣人心弦。</zh>
+          <en>Myeongchang was a title given to the most outstanding vocalists. \nYou are a remarkable musician who moves peoples hearts with sound.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>미술 / 디자인</ko>
+        <ja>美術 / デザイン</ja>
+        <zh>美术 / 设计</zh>
+        <en>Art / Design</en>
+      </skill>
+      <attitude>
+        <ko>낭만적 / 미적 감각 / 자유로운 영혼</ko>
+        <ja>ロマンチック / 美的感覚 / 自由な魂</ja>
+        <zh>浪漫 / 审美感 / 自由的灵魂</zh>
+        <en>Romantic / Aesthetic sense / Free spirit</en>
+      </attitude>
+      <code>IHRJ</code>
+    </job9>
+
+
+    <job10>
+      <man>
+        <ko>도공</ko>
+        <ja>陶工 (トゴン)</ja>
+        <zh>陶工</zh>
+        <en>Dogong</en>
+      </man>
+      <woman>
+        <ko>침선장</ko>
+        <ja>針線匠 (チムソンジャン)</ja>
+        <zh>针线匠</zh>
+        <en>Chimseonjang</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#도예가 #장인</ko>
+          <ja>#彫刻家 #職人</ja>
+          <zh>#雕刻家 #工匠</zh>
+          <en>#Potter #Artisan</en>
+        </man>
+        <woman>
+          <ko>#패션디자이너 #의상감독</ko>
+          <ja>#ファッションデザイナー #衣装監督</ja>
+          <zh>#时尚设计师 #服装总监</zh>
+          <en>#FashionDesigner #CostumeDirector</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>도공은 도자기를 빚던 장인이었습니다. \n당신은 흙 한 줌에서 최고의 걸작을 빚어내는 인내심의 장인입니다.</ko>
+          <ja>「陶工」は陶磁器を作る職人でした。\nあなたは一握りの土から最高の傑作を生み出す、忍耐強い職人です。</ja>
+          <zh>“陶工”乃抟土成器之巨匠，化泥为宝。\n您以精诚之心，塑绝世瑰宝。</zh>
+          <en>Dogong was an artisan who shaped ceramics. \nYou are a craftsman of patience \nwho kneads a handful of soil into a supreme masterpiece.</en>
+        </man>
+        <woman>
+          <ko>침선장은 왕실과 사대부의 의복을 짓던 최고의 바느질 장인이었습니다. \n당신은 한 땀 한 땀 정성을 쏟는 디테일과 미적 감각으로 명품을 만들어내는 완벽주의자입니다.</ko>
+          <ja>「針線匠」は、王室や士大夫の衣服を仕立てる最高の裁縫職人でした。\nあなたは一針一針に真心を込める細やかさと美的感覚で、名品を創り出す完璧主義者です。</ja>
+          <zh>“针线匠”是专为王室和士大夫做衣服的顶级裁缝。\n您凭着精细的做工和独特审美，一针一线缝制出传世佳作，是不折不扣的完美主义者。</zh>
+          <en>Chimseonjang was a master sewing artisan \nwho crafted garments for the royal family and the nobility. \nYou are a perfectionist who creates masterpieces with an exceptional aesthetic sense \nand meticulous attention to every stitch.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>조형 감각/불 조절</ko>
+        <ja>造形感覚/火加減</ja>
+        <zh>造型感/控火</zh>
+        <en>Form sense / Fire control</en>
+      </skill>
+      <attitude>
+        <ko>완벽주의/고집</ko>
+        <ja>完璧主義/頑固</ja>
+        <zh>完美主义/固执</zh>
+        <en>Perfectionism / Stubbornness</en>
+      </attitude>
+      <code>IHRP</code>
+    </job10>
+
+
+    <job11>
+      <man>
+        <ko>숙수</ko>
+        <ja>熟手 (スクス)</ja>
+        <zh>熟手</zh>
+        <en>Suksu</en>
+      </man>
+      <woman>
+        <ko>수랏간 궁녀</ko>
+        <ja>水剌間宮女 \n(スラッカン・クンニョ)</ja>
+        <zh>水剌间宫女</zh>
+        <en>Suratgan Gungnyeo</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#셰프</ko>
+          <ja>#シェフ</ja>
+          <zh>#主厨</zh>
+          <en>#Chef</en>
+        </man>
+        <woman>
+          <ko>#셰프</ko>
+          <ja>#シェフ</ja>
+          <zh>#主厨</zh>
+          <en>#Chef</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>숙수는 왕의 식사를 책임지던 요리사였습니다. \n당신은 정성 담긴 손맛으로 사람들에게 위로를 건네는 쉐프입니다.</ko>
+          <ja>「熟手」は王の食事を担当した料理人でした。\nあなたは真心こめた味で人々を癒やすシェフです。</ja>
+          <zh>"熟手"乃君王膳房之主，掌御馔之精。\n您以诚心妙手，烹暖胃亦暖心。</zh>
+          <en>Suksu was The Royal Chef responsible for the Kings meals. \nYou are a chef who offers comfort to people \nwith the heartfelt taste of your hands.</en>
+        </man>
+        <woman>
+          <ko>수랏간 궁녀는 왕의 식사를 책임지던 요리사였습니다. \n당신은 정성 담긴 손맛으로 사람들에게 위로를 건네는 쉐프입니다.</ko>
+          <ja>「水剌間宮女」は王の食事を担当した料理人でした。\nあなたは真心こめた味で人々を癒やすシェフです。</ja>
+          <zh>"水剌间宫女"乃君王膳房之主，掌御馔之精。\n您以诚心妙手，烹暖胃亦暖心。</zh>
+          <en>Suratgan Gungnyeo was The Royal Chef responsible for the Kings meals. \nYou are a chef who offers comfort to people \nwith the heartfelt taste of your hands.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>요리 / 미각</ko>
+        <ja>料理 / 味覚</ja>
+        <zh>烹饪 / 味觉</zh>
+        <en>Cooking / Taste</en>
+      </skill>
+      <attitude>
+        <ko>섬세함 / 장인정신 / 대접하기 좋아하는</ko>
+        <ja>繊細さ / 職人魂 / もてなすのが好き</ja>
+        <zh>细腻 / 匠人精神 / 喜欢款待</zh>
+        <en>Delicate / Craftsmanship / Loves hosting</en>
+      </attitude>
+      <code>IHTJ</code>
+    </job11>
+
+
+    <job12>
+      <man>
+        <ko>도화서화원</ko>
+        <ja>図画署画員 \n(トファソ・ファウォン)</ja>
+        <zh>图画署画员</zh>
+        <en>Dohwaseo Hwawon</en>
+      </man>
+      <woman>
+        <ko>수모</ko>
+        <ja>手母 (スモ)</ja>
+        <zh>手母</zh>
+        <en>Sumo</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#일러스트레이터</ko>
+          <ja>#イラストレーター</ja>
+          <zh>#插画师</zh>
+          <en>#Illustrator</en>
+        </man>
+        <woman>
+          <ko>#웨딩플래너 #이벤트디렉터</ko>
+          <ja>#ウェディングプランナー #イベントディレクター</ja>
+          <zh>#婚礼策划师 #活动总监</zh>
+          <en>#WeddingPlanner #EventDirector</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>도화서 화원은 왕실과 국가의 그림을 그리던 공식 화가였습니다. \n당신은 남들이 보지 못하는 세상의 아름다움을 그리는 예술가입니다.</ko>
+          <ja>「図画署画員」は王室や国の絵を描く公式画家でした。\nあなたは他人が気づかない世の中の美しさを描く芸術家です。</ja>
+          <zh>“图画署画员”乃描绘万象之御用画师。\n您以丹青妙笔，现世所未睹之奇。</zh>
+          <en>Dohwaseo Hwawon was the official artist painting \nfor the royal family and the nation. \nYou are an artist who depicts the beauty of the world \nthat others cannot see.</en>
+        </man>
+        <woman>
+          <ko>수모는 혼례 절차를 주관하고 신부의 치장을 돕던 조선의 웨딩 전문가였습니다. \n당신은 섬세한 감각과 진행 능력으로 \n인생의 가장 빛나는 순간을 완벽하게 연출합니다.</ko>
+          <ja>「手母」は婚礼の進行を司り、\n花嫁の身支度を手伝う朝鮮のウェディング専門家でした。\nあなたは繊細な感覚と進行能力で、\n人生の最も輝く瞬間を完璧に演出します。</ja>
+          <zh>“手母”是朝鲜时代管婚礼流程、\n帮新娘梳妆的婚礼专家。\n您凭着细腻审美和出色的统筹能力，\n把人生最闪耀的时刻打造得尽善尽美。</zh>
+          <en>Sumo was a wedding expert of Joseon \nwho presided over the wedding ceremony and assisted with the brides adornment. \nYou perfectly direct the brightest moments of life \nwith your delicate aesthetic sense and outstanding organizational skills.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>절대음감/가창력</ko>
+        <ja>絶対音感/歌唱力</ja>
+        <zh>绝对音感/唱功</zh>
+        <en>Absolute pitch / Vocal skill</en>
+      </skill>
+      <attitude>
+        <ko>감수성/섬세함/낭만</ko>
+        <ja>感受性/繊細さ/ロマン</ja>
+        <zh>感性/细腻/浪漫</zh>
+        <en>Sensitivity / Delicacy / Romance</en>
+      </attitude>
+      <code>IHTP</code>
+    </job12>
+
+
+    <job13>
+      <man>
+        <ko>장군</ko>
+        <ja>将軍 (チャングン)</ja>
+        <zh>将军</zh>
+        <en>Janggun</en>
+      </man>
+      <woman>
+        <ko>장군</ko>
+        <ja>将軍 (チャングン)</ja>
+        <zh>将军</zh>
+        <en>Janggun</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#영웅 #지휘관</ko>
+          <ja>#英雄 #指揮官</ja>
+          <zh>#英雄 #指挥官</zh>
+          <en>#Hero #Commander</en>
+        </man>
+        <woman>
+          <ko>#영웅 #지휘관</ko>
+          <ja>#英雄 #指揮官</ja>
+          <zh>#英雄 #指挥官</zh>
+          <en>#Hero #Commander</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>장군은 전장에서 군을 지휘하며 나라를 지키던 무장이었습니다. \n당신은 수 만의 적 앞에서도 흔들리지 않는 강철같은 지휘관입니다.</ko>
+          <ja>「将軍」は戦場で軍を指揮し、国を守る武将でした。\nあなたは数万の敵の前でも揺るがない、\n鋼のような指揮官です。</ja>
+          <zh>“将军”乃护国之干城，统兵御敌。\n您以磐石之志，镇万军而不动。</zh>
+          <en>Janggun was a martial commander \ndefending the country on the battlefield. \nYou are a commander of steel-like will, \nunshaken even before tens of thousands of enemies.</en>
+        </man>
+        <woman>
+          <ko>장군은 전장에서 군을 지휘하며 나라를 지키던 무장이었습니다. \n당신은 수 만의 적 앞에서도 흔들리지 않는 강철같은 지휘관입니다.</ko>
+          <ja>「将軍」は戦場で軍を指揮し、国を守る武将でした。\nあなたは数万の敵の前でも揺るがない、鋼のような指揮官です。</ja>
+          <zh>“将军”乃护国之干城，统兵御敌。\n您以磐石之志，镇万军而不动。</zh>
+          <en>Janggun was a martial commander \ndefending the country on the battlefield. \nYou are a commander of steel-like will, \nunshaken even before tens of thousands of enemies.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>전술 지휘 / 통솔력</ko>
+        <ja>戦術指揮 / 統率力</ja>
+        <zh>战术指挥 / 统率力</zh>
+        <en>Tactical command / Leadership</en>
+      </skill>
+      <attitude>
+        <ko>카리스마/책임감</ko>
+        <ja>カリスマ/責任感</ja>
+        <zh>魅力领导力/责任感</zh>
+        <en>Charisma / Responsibility</en>
+      </attitude>
+      <code>EBRJ</code>
+    </job13>
+
+
+    <job14>
+      <man>
+        <ko>포작</ko>
+        <ja>鮑作 (ポジャク)</ja>
+        <zh>鲍作</zh>
+        <en>Pojak</en>
+      </man>
+      <woman>
+        <ko>잠녀</ko>
+        <ja>潜女 (ジャムニョ)</ja>
+        <zh>潜女</zh>
+        <en>Jamnyeo</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#해녀</ko>
+          <ja>海女/ダイバー</ja>
+          <zh>#海女 #潜水员</zh>
+          <en>#Deep Sea Diver</en>
+        </man>
+        <woman>
+          <ko>#해녀</ko>
+          <ja>#海女 #ダイバー</ja>
+          <zh>#海女 #潜水员</zh>
+          <en>#Deep Sea Diver</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>포작은 바다를 누비며 해산물을 채취하던 사람이었습니다. \n당신은 위험을 감수하고 길을 개척하는 모험심이 강한 사람입니다.</ko>
+          <ja>「鮑作」は海を渡り海産物を採る人でした。\nあなたは危険を冒して道を切り開く、冒険心の強い開拓者です。</ja>
+          <zh>“鲍作”乃海中拾珍，搏浪之先驱。\n您以勇毅之志，踏险途而开新路。</zh>
+          <en>Po-jak was a person who navigated the seas to harvest seafood. \nYou are a strong-willed pioneer who takes risks to blaze new trails.</en>
+        </man>
+        <woman>
+          <ko>잠녀은 바다를 누비며 해산물을 채취하던 사람이었습니다. \n당신은 위험을 감수하고 길을 개척하는 모험심이 강한 사람입니다.</ko>
+          <ja>「潜女」は海を渡り海産物を採る人でした。\nあなたは危険を冒して道を切り開く、冒険心の強い開拓者です。</ja>
+          <zh>“潜女”乃海中拾珍，搏浪之先驱。\n您以勇毅之志，踏险途而开新路。</zh>
+          <en>Jamnyeo was a person who navigated the seas to harvest seafood. \nYou are a strong-willed pioneer who takes risks to blaze new trails.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </skill>
+      <attitude>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </attitude>
+      <code>EBRP</code>
+    </job14>
+
+
+    <job15>
+      <man>
+        <ko>금화군</ko>
+        <ja>禁火軍 
+(クムファグン)</ja>
+        <zh>禁火军</zh>
+        <en>Geumhwagun</en>
+      </man>
+      <woman>
+        <ko>금화군</ko>
+        <ja>禁火軍 
+(クムファグン)</ja>
+        <zh>禁火军</zh>
+        <en>Geumhwagun</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#소방관</ko>
+          <ja>#消防士</ja>
+          <zh>#消防员</zh>
+          <en>#Firefighter</en>
+        </man>
+        <woman>
+          <ko>#소방관</ko>
+          <ja>#消防士</ja>
+          <zh>#消防员</zh>
+          <en>#Firefighter</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>금화군은 불을 끄는 조선시대 소방관이었습니다. \n당신은 위기 앞에서 가장 먼저 뛰어드는 용감한 영웅입니다.</ko>
+          <ja>「禁火軍」は火を消す朝鮮時代の消防隊でした。\nあなたは危機の前で真っ先に飛び込む勇敢な英雄です。</ja>
+          <zh>"禁火军"乃朝鲜时代克制火患之劲旅。\n您以无畏之躯，赴汤蹈火，是率先投身危难的真英雄。</zh>
+          <en>Geumhwagun was the firefighter of the Joseon era who extinguished flames. \nYou are a brave hero who leaps first into the face of crisis.</en>
+        </man>
+        <woman>
+          <ko>금화군은 불을 끄는 조선시대 소방관이었습니다. \n당신은 위기 앞에서 가장 먼저 뛰어드는 용감한 영웅입니다.</ko>
+          <ja>「禁火軍」は火を消す朝鮮時代の消防隊でした。\nあなたは危機の前で真っ先に飛び込む勇敢な英雄です。</ja>
+          <zh>"禁火军"乃朝鲜时代克制火患之劲旅。\n您以无畏之躯，赴汤蹈火，是率先投身危难的真英雄。</zh>
+          <en>Geumhwagun was the firefighter of the Joseon era who extinguished flames. \nYou are a brave hero who leaps first into the face of crisis.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>빈 텍스트</ko>
+        <ja>空</ja>
+        <zh>空</zh>
+        <en>empty</en>
+      </skill>
+      <attitude>
+        <ko>배려심 / 봉사 정신 / 차분함</ko>
+        <ja>思いやり / 奉仕精神 / 落ち着き</ja>
+        <zh>体贴 / 奉献精神 / 沉稳</zh>
+        <en>Considerate / Service-minded / Calm</en>
+      </attitude>
+      <code>EBTJ</code>
+    </job15>
+
+
+    <job16>
+      <man>
+        <ko>착호갑사</ko>
+        <ja>捉虎甲士 \n(チャッコカプサ)</ja>
+        <zh>捉虎甲士</zh>
+        <en>Chakhogapsa</en>
+      </man>
+      <woman>
+        <ko>착호갑사</ko>
+        <ja>捉虎甲士 \n(チャッコカプサ)</ja>
+        <zh>捉虎甲士</zh>
+        <en>Chakhogapsa</en>
+      </woman>
+      <keyword>
+        <man>
+          <ko>#특수부대 #국가대표</ko>
+          <ja>#特種部隊 #国家代表</ja>
+          <zh>#特种部队 #国家代表</zh>
+          <en>#SpecialForces #NationalAthlete</en>
+        </man>
+        <woman>
+          <ko>#특수부대 #국가대표</ko>
+          <ja>#特種部隊 #国家代表</ja>
+          <zh>#特种部队 #国家代表</zh>
+          <en>#SpecialForces #NationalAthlete</en>
+        </woman>
+      </keyword>
+      <summary>
+        <man>
+          <ko>착호갑사는 호랑이를 사냥하여 백성을 지키던 특수 무관이었습니다. \n당신은 압도적인 무력을 가진 조선 최강의 전사입니다.</ko>
+          <ja>「捉虎甲士」は虎を狩り、民を守った特殊部隊でした。\nあなたは圧倒的な武力を持つ朝鮮最強の戦士です。</ja>
+          <zh>“捉虎甲士”乃猎虎安民之精锐。\n您拥雷霆之力，力压山君，实为朝鲜最强之战士。</zh>
+          <en>Chakhogapsa was a special warrior \nwho protected the people by hunting tigers. \nYou are the strongest warrior of Joseon, \npossessing overwhelming martial prowess.</en>
+        </man>
+        <woman>
+          <ko>착호갑사는 호랑이를 사냥하여 백성을 지키던 특수 무관이었습니다. \n당신은 압도적인 무력을 가진 조선 최강의 전사입니다.</ko>
+          <ja>「捉虎甲士」は虎を狩り、民を守った特殊部隊でした。\nあなたは圧倒的な武力を持つ朝鮮最強の戦士です。</ja>
+          <zh>“捉虎甲士”乃猎虎安民之精锐。\n您拥雷霆之力，力压山君，实为朝鲜最强之战士。</zh>
+          <en>Chakhogapsa was a special warrior \nwho protected the people by hunting tigers. \nYou are the strongest warrior of Joseon, \npossessing overwhelming martial prowess.</en>
+        </woman>
+      </summary>
+      <skill>
+        <ko>무술 / 사냥</ko>
+        <ja>武術 / 狩猟</ja>
+        <zh>武术 / 狩猎</zh>
+        <en>Martial arts / Hunting</en>
+      </skill>
+      <attitude>
+        <ko>용감함 / 승부욕 / 강인한 체력</ko>
+        <ja>勇敢さ / 闘争心 / 強靭な体力</ja>
+        <zh>勇敢 / 好胜心 / 强健体能</zh>
+        <en>Brave / Competitive / Strong stamina</en>
+      </attitude>
+      <code>EBTP</code>
+    </job16>
+
+  </result>
+
+  <!-- 에러 메시지 -->
+  <error>
+
+    <invalidSelection>
+      <ko>선택지 선택에 오류가 발생했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>選択項目の処理中にエラーが発生しました。管理者にお問い合わせください。</ja>
+      <zh>选项处理时发生错误。请联系管理员。</zh>
+      <en>An error occurred while processing your selection. Please contact the administrator.</en>
+    </invalidSelection>
+
+    <aiPcCommunicationFailed>
+      <ko>AI PC와 통신에 실패했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>AI PCとの通信に失敗しました。管理者にお問い合わせください。</ja>
+      <zh>与 AI PC 通信失败。请联系管理员。</zh>
+      <en>Failed to communicate with the AI PC. Please contact the administrator.</en>
+    </aiPcCommunicationFailed>
+
+    <nlogInitFailed>
+      <ko>NLog 초기화에 실패했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>NLogの初期化に失敗しました。管理者にお問い合わせください。</ja>
+      <zh>NLog 初始化失败。请联系管理员。</zh>
+      <en>NLog initialization failed. Please contact the administrator.</en>
+    </nlogInitFailed>
+
+    <dataFileLoadFailed>
+      <ko>데이터 파일 불러오기에 실패했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>データファイルの読み込みに失敗しました。管理者にお問い合わせください。</ja>
+      <zh>数据文件加载失败。请联系管理员。</zh>
+      <en>Failed to load the data file. Please contact the administrator.</en>
+    </dataFileLoadFailed>
+
+    <communicationFailed>
+      <ko>통신에 실패했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>通信に失敗しました。管理者にお問い合わせください。</ja>
+      <zh>通信失败。请联系管理员。</zh>
+      <en>Communication failed. Please contact the administrator.</en>
+    </communicationFailed>
+
+    <programInitFailed>
+      <ko>프로그램 초기화에 실패했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>プログラムの初期化に失敗しました。管理者にお問い合わせください。</ja>
+      <zh>程序初始化失败。请联系管理员。</zh>
+      <en>Program initialization failed. Please contact the administrator.</en>
+    </programInitFailed>
+
+    <faceRecognitionFailed>
+      <ko>얼굴 인식에 실패했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>顔認識に失敗しました。管理者にお問い合わせください。</ja>
+      <zh>人脸识别失败。请联系管理员。</zh>
+      <en>Face recognition failed. Please contact the administrator.</en>
+    </faceRecognitionFailed>
+
+    <aiPcError>
+      <ko>AI PC에 오류가 발생했습니다. 관리자에게 문의해주세요.</ko>
+      <ja>AI PCでエラーが発生しました。管理者にお問い合わせください。</ja>
+      <zh>AI PC 发生错误。请联系管理员。</zh>
+      <en>An error occurred on the AI PC. Please contact the administrator.</en>
+    </aiPcError>
+
+  </error>
+  
+</Root>

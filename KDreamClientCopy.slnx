@@ -1,0 +1,7 @@
+﻿<Solution>
+  <Project Path="Unity.WebRTC.RuntimeTests.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.WebRTC.csproj" />
+  <Project Path="Unity.WebRTC.EditorTests.csproj" />
+  <Project Path="Unity.WebRTC.Editor.csproj" />
+</Solution>

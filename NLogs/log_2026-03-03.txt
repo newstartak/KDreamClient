@@ -1,0 +1,35 @@
+2026/03/03 10:05:37.824 | INFO | NLog init completed.
+
+2026/03/03 10:05:37.858 | ERROR | SETTING xml init error: System.NullReferenceException: Object reference not set to an instance of an object
+  at XmlManager.InitConfig () [0x0008b] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:83  
+-
+ <InitXml>d__14.MoveNext => XmlManager.InitConfig => NLogManager.Error
+
+2026/03/03 10:07:14.818 | INFO | NLog init completed.
+2026/03/03 10:07:14.869 | INFO | XML Init Completed.
+2026/03/03 10:07:15.321 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 10:52:07.921 | INFO | NLog init completed.
+2026/03/03 10:52:07.975 | INFO | XML Init Completed.
+2026/03/03 10:52:08.342 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 13:20:59.319 | INFO | NLog init completed.
+2026/03/03 13:20:59.374 | INFO | XML Init Completed.
+2026/03/03 13:20:59.515 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 13:21:16.727 | INFO | NLog init completed.
+2026/03/03 13:21:16.770 | INFO | XML Init Completed.
+2026/03/03 13:21:16.896 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 14:58:55.353 | INFO | NLog init completed.
+2026/03/03 14:58:55.396 | INFO | XML Init Completed.
+2026/03/03 14:58:55.806 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 14:59:00.328 | INFO | NationCode Changed: ko
+2026/03/03 14:59:08.296 | INFO | NLog init completed.
+2026/03/03 14:59:08.341 | INFO | XML Init Completed.
+2026/03/03 14:59:08.467 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 14:59:10.912 | INFO | NationCode Changed: en
+2026/03/03 14:59:17.108 | INFO | NLog init completed.
+2026/03/03 14:59:17.154 | INFO | XML Init Completed.
+2026/03/03 14:59:17.269 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 14:59:19.254 | INFO | NationCode Changed: zh
+2026/03/03 14:59:26.404 | INFO | NLog init completed.
+2026/03/03 14:59:26.448 | INFO | XML Init Completed.
+2026/03/03 14:59:26.577 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/03 14:59:31.578 | INFO | NationCode Changed: ja

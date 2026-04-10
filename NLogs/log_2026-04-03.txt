@@ -1,0 +1,233 @@
+2026/04/03 16:29:50.982 | INFO | NLog init completed.
+2026/04/03 16:29:51.026 | INFO | XML Init Completed.
+
+2026/04/03 16:29:55.128 | ERROR | Error occured during connecting to redis server: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code. 
+-
+ MoveNextRunner.InvokeMoveNext => <InitRedis>d__6.MoveNext => NLogManager.Error
+
+
+2026/04/03 16:30:01.139 | ERROR | Error occured during connecting to redis server: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code. 
+-
+ MoveNextRunner.InvokeMoveNext => <InitRedis>d__6.MoveNext => NLogManager.Error
+
+
+2026/04/03 16:30:01.141 | ERROR | Redis Init Error 
+-
+ MoveNextRunner.InvokeMoveNext => <InitProgramInternalAsync>d__9.MoveNext => NLogManager.Error
+
+2026/04/03 16:30:59.766 | INFO | NLog init completed.
+2026/04/03 16:30:59.814 | INFO | XML Init Completed.
+2026/04/03 16:30:59.814 | INFO | ProgramManager init completed
+
+2026/04/03 16:31:03.604 | ERROR | Error occured during sending cmd: Object reference not set to an instance of an object 
+-
+ AsyncTaskMethodBuilder.Start => <PublishSimpleRedis>d__9.MoveNext => NLogManager.Error
+
+2026/04/03 16:31:34.665 | INFO | NLog init completed.
+2026/04/03 16:31:34.718 | INFO | XML Init Completed.
+2026/04/03 16:31:34.846 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/03 16:31:34.846 | INFO | ProgramManager init completed
+2026/04/03 16:31:38.603 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:31:44.200 | DEBUG | test mode unlocking 1/3
+2026/04/03 16:31:45.575 | DEBUG | test mode unlocking 2/3
+2026/04/03 16:31:47.263 | DEBUG | test mode unlocked 3/3
+2026/04/03 16:31:47.263 | DEBUG | Test Mode: True
+2026/04/03 16:31:48.308 | INFO | NationCode Changed: en
+2026/04/03 16:31:48.320 | INFO | Command sent: {
+  "lang": "en"
+}
+2026/04/03 16:32:08.050 | INFO | NLog init completed.
+2026/04/03 16:32:08.102 | INFO | XML Init Completed.
+2026/04/03 16:32:08.221 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/03 16:32:08.221 | INFO | ProgramManager init completed
+2026/04/03 16:32:11.965 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:32:16.905 | DEBUG | test mode unlocking 1/3
+2026/04/03 16:32:18.790 | DEBUG | test mode unlocking 2/3
+2026/04/03 16:32:20.394 | DEBUG | test mode unlocked 3/3
+2026/04/03 16:32:20.394 | DEBUG | Test Mode: True
+2026/04/03 16:32:20.792 | INFO | NationCode Changed: en
+2026/04/03 16:32:20.796 | INFO | Command sent: {
+  "lang": "en"
+}
+2026/04/03 16:32:27.491 | INFO | Gender Selected: M
+2026/04/03 16:32:28.897 | INFO | code added: 
+2026/04/03 16:33:57.752 | INFO | NLog init completed.
+2026/04/03 16:33:57.807 | INFO | XML Init Completed.
+2026/04/03 16:33:57.926 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/03 16:33:57.926 | INFO | ProgramManager init completed
+2026/04/03 16:34:01.729 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:34:05.374 | DEBUG | test mode unlocking 1/3
+2026/04/03 16:34:07.015 | DEBUG | test mode unlocking 2/3
+2026/04/03 16:34:08.624 | DEBUG | test mode unlocked 3/3
+2026/04/03 16:34:08.624 | DEBUG | Test Mode: True
+2026/04/03 16:34:09.572 | INFO | NationCode Changed: en
+2026/04/03 16:34:09.577 | INFO | Command sent: {
+  "lang": "en"
+}
+2026/04/03 16:34:13.635 | INFO | Gender Selected: M
+2026/04/03 16:34:14.782 | INFO | code added: 
+2026/04/03 16:34:17.585 | INFO | code added: IH
+2026/04/03 16:34:19.479 | INFO | code added: 
+2026/04/03 16:34:22.150 | INFO | code added: T
+2026/04/03 16:34:25.279 | INFO | code added: J
+2026/04/03 16:35:54.665 | INFO | NLog init completed.
+2026/04/03 16:35:54.721 | INFO | XML Init Completed.
+2026/04/03 16:35:54.854 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/03 16:35:54.862 | INFO | ProgramManager init completed
+2026/04/03 16:35:58.551 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:36:02.664 | DEBUG | test mode unlocking 1/3
+2026/04/03 16:36:04.457 | DEBUG | test mode unlocking 2/3
+2026/04/03 16:36:06.312 | DEBUG | test mode unlocked 3/3
+2026/04/03 16:36:06.312 | DEBUG | Test Mode: True
+2026/04/03 16:36:07.579 | INFO | NationCode Changed: ko
+2026/04/03 16:36:07.579 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/03 16:36:11.626 | INFO | Gender Selected: M
+2026/04/03 16:36:12.824 | INFO | code added: 
+2026/04/03 16:36:58.369 | INFO | NLog init completed.
+2026/04/03 16:36:58.421 | INFO | XML Init Completed.
+2026/04/03 16:36:58.543 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/03 16:36:58.549 | INFO | ProgramManager init completed
+2026/04/03 16:37:02.247 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:37:05.451 | DEBUG | test mode unlocking 1/3
+2026/04/03 16:37:07.406 | DEBUG | test mode unlocking 2/3
+2026/04/03 16:37:09.244 | DEBUG | test mode unlocked 3/3
+2026/04/03 16:37:09.244 | DEBUG | Test Mode: True
+2026/04/03 16:37:10.374 | INFO | NationCode Changed: ko
+2026/04/03 16:37:10.375 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/03 16:37:13.850 | INFO | Gender Selected: M
+2026/04/03 16:37:16.030 | INFO | code added: 
+2026/04/03 16:37:18.207 | INFO | code added: IH
+2026/04/03 16:37:21.681 | INFO | code added: 
+2026/04/03 16:37:24.783 | INFO | code added: T
+2026/04/03 16:37:26.096 | INFO | code added: P
+2026/04/03 16:37:40.417 | INFO | redis get AI START
+2026/04/03 16:37:40.422 | INFO | AI START execute
+2026/04/03 16:37:40.422 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/04/03 16:37:43.896 | INFO | redis get AI complete
+2026/04/03 16:37:43.896 | INFO | ai complete execute
+2026/04/03 16:37:44.032 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/04/03 16:37:44.628 | INFO | Upload Completed: https://storage.googleapis.com/kdream/0403e100339cc2
+2026/04/03 16:37:51.503 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:37:52.252 | INFO | NationCode Changed: en
+2026/04/03 16:37:52.252 | INFO | Command sent: {
+  "lang": "en"
+}
+2026/04/03 16:37:55.703 | INFO | Gender Selected: M
+2026/04/03 16:37:58.704 | INFO | code added: 
+2026/04/03 16:38:00.703 | INFO | code added: EB
+2026/04/03 16:38:02.311 | INFO | code added: 
+2026/04/03 16:38:03.704 | INFO | code added: T
+2026/04/03 16:38:05.037 | INFO | code added: J
+2026/04/03 16:38:19.555 | INFO | redis get AI START
+2026/04/03 16:38:19.555 | INFO | AI START execute
+2026/04/03 16:38:19.555 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/04/03 16:38:23.106 | INFO | redis get AI complete
+2026/04/03 16:38:23.110 | INFO | ai complete execute
+2026/04/03 16:38:23.140 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/04/03 16:38:23.245 | INFO | Upload Completed: https://storage.googleapis.com/kdream/040300aa7604d8
+2026/04/03 16:38:31.800 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:38:32.732 | INFO | NationCode Changed: zh
+2026/04/03 16:38:32.732 | INFO | Command sent: {
+  "lang": "zh"
+}
+2026/04/03 16:38:37.015 | INFO | Gender Selected: M
+2026/04/03 16:38:38.814 | INFO | code added: 
+2026/04/03 16:38:40.230 | INFO | code added: EM
+2026/04/03 16:38:42.113 | INFO | EM has been canceled.
+2026/04/03 16:38:44.144 | INFO | code added: IL
+2026/04/03 16:38:47.726 | INFO | code added: 
+2026/04/03 16:38:49.640 | INFO | code added: T
+2026/04/03 16:38:51.207 | INFO | code added: P
+2026/04/03 16:39:05.560 | INFO | redis get AI START
+2026/04/03 16:39:05.564 | INFO | AI START execute
+2026/04/03 16:39:05.564 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/04/03 16:39:08.722 | INFO | redis get AI complete
+2026/04/03 16:39:08.722 | INFO | ai complete execute
+2026/04/03 16:39:08.756 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/04/03 16:39:08.850 | INFO | Upload Completed: https://storage.googleapis.com/kdream/040376f474804a
+2026/04/03 16:39:14.866 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/03 16:39:15.891 | INFO | NationCode Changed: ja
+2026/04/03 16:39:15.891 | INFO | Command sent: {
+  "lang": "ja"
+}
+2026/04/03 16:39:19.664 | INFO | Gender Selected: M
+2026/04/03 16:39:22.423 | INFO | code added: 
+2026/04/03 16:39:25.265 | INFO | code added: IH
+2026/04/03 16:39:26.761 | INFO | code added: 
+2026/04/03 16:39:27.984 | INFO | code added: R
+2026/04/03 16:39:29.377 | INFO | code added: P
+2026/04/03 16:39:43.138 | INFO | redis get AI START
+2026/04/03 16:39:43.142 | INFO | AI START execute
+2026/04/03 16:39:43.142 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/04/03 16:39:46.538 | INFO | redis get AI complete
+2026/04/03 16:39:46.538 | INFO | ai complete execute
+2026/04/03 16:39:46.572 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/04/03 16:39:46.675 | INFO | Upload Completed: https://storage.googleapis.com/kdream/040390ac319b2e
+2026/04/03 16:39:52.762 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}

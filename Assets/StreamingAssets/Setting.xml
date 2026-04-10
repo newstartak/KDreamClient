@@ -1,0 +1,60 @@
+<Root>
+  
+  <Program>
+
+    <!-- Waiting time before capture countdown (Seconds) -->
+    <captureWait>7</captureWait>
+
+    <!-- Waiting time per question (Seconds) -->
+    <askWait>1000</askWait>
+
+    <!-- Waiting time for result Screen (Seconds) -->
+    <resultWait>1000</resultWait>
+
+  </Program>
+
+  <Http>
+    
+    <!--  If you need more endpoints, you can add more  -->
+    <Endpoint>
+      
+      <Ip>http://192.168.1.164:5000/upload</Ip>
+      <Ip>http://192.168.1.164:5000/upload</Ip>
+      
+    </Endpoint>
+    
+  </Http>
+  
+  
+  <Redis>
+    
+    <!--  If you need more endpoints, you can add more  -->
+    <Endpoint>
+      
+      <Ip>192.168.1.164</Ip>
+      <Ip>192.168.1.164</Ip>
+      
+    </Endpoint>
+    
+    <Port>6379</Port>
+    
+    <!--  No password, do not enter  -->
+    <Password></Password>
+    
+    <Channel>K-Dream</Channel>
+    
+  </Redis>
+  
+  <Camera>
+
+    <!--  -->
+    <WebRtcUrl>http://192.168.1.164:9000/webrtc/offer</WebRtcUrl>
+    <!--  0 shows original landscape video, 90 shows landscape video rotated 90 clockwise -->
+    <!--  ONLY 0, 90, 180, 270 ALLOWED!  -->
+    <Rotate_angle>90</Rotate_angle>
+    <!--  false: original, true: flip  -->
+    <Flip>false</Flip>
+
+  </Camera>
+  
+</Root>

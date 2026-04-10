@@ -1,0 +1,253 @@
+2026/04/09 08:43:22.750 | INFO | NLog init completed.
+2026/04/09 08:43:22.811 | INFO | XML Init Completed.
+2026/04/09 08:43:22.944 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/09 08:43:22.945 | INFO | ProgramManager init completed
+2026/04/09 08:43:26.750 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 08:45:52.623 | INFO | NLog init completed.
+2026/04/09 08:45:52.676 | INFO | XML Init Completed.
+2026/04/09 08:45:52.805 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/09 08:45:52.805 | INFO | ProgramManager init completed
+2026/04/09 08:45:56.593 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 08:46:00.098 | INFO | NationCode Changed: ko
+2026/04/09 08:46:00.110 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/09 08:46:00.552 | INFO | GatheringState: Gathering
+2026/04/09 08:46:00.654 | INFO | Offer SDP length: 4704
+2026/04/09 08:46:00.654 | INFO | GatheringState: Complete
+2026/04/09 08:46:04.117 | INFO | Gender Selected: M
+2026/04/09 08:46:05.334 | INFO | code added: 
+2026/04/09 08:46:06.621 | INFO | code added: IH
+2026/04/09 08:46:07.879 | INFO | code added: 
+2026/04/09 08:46:09.006 | INFO | code added: T
+2026/04/09 08:46:10.221 | INFO | code added: P
+
+2026/04/09 08:46:21.702 | ERROR | HTTP error: Request timeout 
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+
+2026/04/09 08:46:21.702 | ERROR | HTTP body:  
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+2026/04/09 08:47:00.110 | INFO | NLog init completed.
+2026/04/09 08:47:00.165 | INFO | XML Init Completed.
+2026/04/09 08:47:00.308 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/09 08:47:00.308 | INFO | ProgramManager init completed
+2026/04/09 08:47:04.074 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 08:47:05.936 | DEBUG | test mode unlocking 1/3
+2026/04/09 08:47:07.716 | DEBUG | test mode unlocking 2/3
+2026/04/09 08:47:14.340 | DEBUG | test mode unlocked 3/3
+2026/04/09 08:47:14.340 | DEBUG | Test Mode: True
+2026/04/09 08:47:16.420 | INFO | NationCode Changed: ko
+2026/04/09 08:47:16.420 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/09 08:47:19.930 | INFO | Gender Selected: W
+2026/04/09 08:47:21.075 | INFO | code added: 
+2026/04/09 08:47:22.159 | INFO | code added: EB
+2026/04/09 08:47:23.165 | INFO | code added: 
+2026/04/09 08:47:24.227 | INFO | code added: T
+2026/04/09 08:47:25.435 | INFO | code added: P
+2026/04/09 08:52:41.426 | INFO | NLog init completed.
+2026/04/09 08:52:41.472 | INFO | XML Init Completed.
+2026/04/09 08:52:41.599 | INFO | Redis server connected: 127.0.0.1:6379
+2026/04/09 08:52:41.601 | INFO | ProgramManager init completed
+2026/04/09 08:52:45.399 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 08:52:46.897 | INFO | NationCode Changed: ko
+2026/04/09 08:52:46.897 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/09 08:52:47.320 | INFO | GatheringState: Gathering
+2026/04/09 08:52:47.422 | INFO | Offer SDP length: 4706
+2026/04/09 08:52:47.428 | INFO | GatheringState: Complete
+2026/04/09 08:52:50.535 | INFO | Gender Selected: M
+2026/04/09 08:52:51.852 | INFO | code added: 
+2026/04/09 08:52:53.014 | INFO | code added: EM
+2026/04/09 08:52:54.132 | INFO | code added: 
+2026/04/09 08:52:55.243 | INFO | code added: T
+2026/04/09 08:52:56.331 | INFO | code added: P
+
+2026/04/09 08:53:08.486 | ERROR | HTTP error: Request timeout 
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+
+2026/04/09 08:53:08.491 | ERROR | HTTP body:  
+-
+ SetupCoroutine.InvokeMoveNext => <PostOfferAndApplyAnswer>d__13.MoveNext => NLogManager.Error
+
+2026/04/09 08:53:47.493 | INFO | NLog init completed.
+2026/04/09 08:53:47.542 | INFO | XML Init Completed.
+2026/04/09 08:53:48.069 | INFO | Redis server connected: 192.168.1.164:6379
+2026/04/09 08:53:48.069 | INFO | ProgramManager init completed
+2026/04/09 08:53:51.753 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 08:58:09.822 | INFO | NLog init completed.
+2026/04/09 08:58:09.868 | INFO | XML Init Completed.
+2026/04/09 08:58:10.001 | INFO | Redis server connected: 192.168.1.164:6379
+2026/04/09 08:58:10.010 | INFO | ProgramManager init completed
+2026/04/09 08:58:13.769 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 08:58:16.845 | INFO | NationCode Changed: ko
+2026/04/09 08:58:17.248 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/09 08:58:17.303 | INFO | GatheringState: Gathering
+2026/04/09 08:58:17.406 | INFO | Offer SDP length: 4704
+2026/04/09 08:58:17.413 | INFO | GatheringState: Complete
+2026/04/09 08:58:20.513 | INFO | Gender Selected: M
+2026/04/09 08:58:22.444 | INFO | HTTP response raw:
+{"sdp":"v=0\r\no=- 3984681485 3984681485 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic:WMS *\r\nm=video 61737 UDP/TLS/RTP/SAVPF 127 118 123 115 122 114\r\nc=IN IP4 192.168.1.164\r\na=sendonly\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=mid:0\r\na=msid:c0f3586c-c993-457b-a770-a0c13df96f66 ad91bb64-5578-484f-afcf-cc267cbd4a22\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=ssrc-group:FID 3329595259 2623067897\r\na=ssrc:3329595259 cname:20162f10-8991-41c9-ad7f-3b64798f5d2a\r\na=ssrc:2623067897 cname:20162f10-8991-41c9-ad7f-3b64798f5d2a\r\na=rtpmap:127 VP8/90000\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtcp-fb:127 goog-remb\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=127\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=rtcp-fb:123 goog-remb\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=123\r\na=rtpmap:122 H264/90000\r\na=rtcp-fb:122 nack\r\na=rtcp-fb:122 nack pli\r\na=rtcp-fb:122 goog-remb\r\na=fmtp:122 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=122\r\na=candidate:c898ddd7c7adc3376b8a75649ad0ca06 1 udp 2130706431 192.168.1.164 61737 typ host\r\na=candidate:11f89ca55a96e8290d3fc26826f60b5f 1 udp 2130706431 192.168.174.1 61738 typ host\r\na=candidate:41f164e0e59e0dfac0e20182ad10d439 1 udp 2130706431 192.168.26.1 61739 typ host\r\na=candidate:01c7ba8e2d2ac64b72eab5f65d0fde5b 1 udp 1694498815 218.39.192.112 61737 typ srflx raddr 192.168.1.164 rport 61737\r\na=end-of-candidates\r\na=ice-ufrag:q9Oo\r\na=ice-pwd:qIWA57qe3pIYIo4I4AUX4x\r\na=fingerprint:sha-256 35:08:EA:CA:D1:B8:2F:7E:2D:C4:5F:72:76:D8:C0:45:45:8D:94:AD:24:02:B7:DD:83:89:87:D6:4E:D0:00:DD\r\na=setup:active\r\n","type":"answer"}
+2026/04/09 08:58:22.444 | INFO | Answer SDP length: 1792
+2026/04/09 08:58:22.444 | INFO | IceConnectionState: Checking
+2026/04/09 08:58:22.444 | INFO | OnTrack video
+2026/04/09 08:58:22.444 | INFO | ConnectionState: Connecting
+2026/04/09 08:58:22.461 | INFO | Applied answer
+2026/04/09 08:58:23.017 | INFO | ConnectionState: Connected
+2026/04/09 08:58:23.017 | INFO | IceConnectionState: Connected
+2026/04/09 08:58:25.013 | INFO | code added: 
+2026/04/09 08:58:26.173 | INFO | code added: EM
+2026/04/09 08:58:27.436 | INFO | code added: 
+2026/04/09 08:58:28.636 | INFO | code added: R
+2026/04/09 08:58:29.723 | INFO | code added: J
+2026/04/09 08:58:37.699 | INFO | IceConnectionState: Completed
+2026/04/09 08:58:49.720 | INFO | valid code: MEMRJ
+2026/04/09 08:58:49.720 | INFO | Determined job code is MEMRJ
+2026/04/09 08:58:49.725 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+
+2026/04/09 08:58:49.725 | WARN | capture fail: {"step": "CAPTURE_FAIL", "data": ""} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Warn
+
+2026/04/09 09:00:28.659 | INFO | NLog init completed.
+2026/04/09 09:00:28.706 | INFO | XML Init Completed.
+2026/04/09 09:00:29.305 | INFO | Redis server connected: 192.168.1.164:6379
+2026/04/09 09:00:29.323 | INFO | ProgramManager init completed
+2026/04/09 09:00:33.024 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 09:00:34.249 | INFO | NationCode Changed: ko
+2026/04/09 09:00:34.249 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/09 09:00:34.710 | INFO | GatheringState: Gathering
+2026/04/09 09:00:34.815 | INFO | Offer SDP length: 4706
+2026/04/09 09:00:34.822 | INFO | GatheringState: Complete
+2026/04/09 09:00:38.345 | INFO | Gender Selected: M
+2026/04/09 09:00:39.467 | INFO | code added: 
+2026/04/09 09:00:39.851 | INFO | HTTP response raw:
+{"sdp":"v=0\r\no=- 3984681623 3984681623 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic:WMS *\r\nm=video 59887 UDP/TLS/RTP/SAVPF 127 118 123 115 122 114\r\nc=IN IP4 192.168.1.164\r\na=sendonly\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=mid:0\r\na=msid:9817b093-b602-4299-beca-4a7cc7f0fce9 f2b7a8b6-e4c9-46a6-b056-80f8eaeba8ce\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=ssrc-group:FID 1769718103 2772593811\r\na=ssrc:1769718103 cname:eabf2a23-3a7b-487d-871e-8ba1f166260e\r\na=ssrc:2772593811 cname:eabf2a23-3a7b-487d-871e-8ba1f166260e\r\na=rtpmap:127 VP8/90000\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtcp-fb:127 goog-remb\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=127\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=rtcp-fb:123 goog-remb\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=123\r\na=rtpmap:122 H264/90000\r\na=rtcp-fb:122 nack\r\na=rtcp-fb:122 nack pli\r\na=rtcp-fb:122 goog-remb\r\na=fmtp:122 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=122\r\na=candidate:c898ddd7c7adc3376b8a75649ad0ca06 1 udp 2130706431 192.168.1.164 59887 typ host\r\na=candidate:11f89ca55a96e8290d3fc26826f60b5f 1 udp 2130706431 192.168.174.1 59888 typ host\r\na=candidate:41f164e0e59e0dfac0e20182ad10d439 1 udp 2130706431 192.168.26.1 59889 typ host\r\na=candidate:01c7ba8e2d2ac64b72eab5f65d0fde5b 1 udp 1694498815 218.39.192.112 59887 typ srflx raddr 192.168.1.164 rport 59887\r\na=end-of-candidates\r\na=ice-ufrag:HRij\r\na=ice-pwd:Zv95fAL8ZpShJUWMxbRNj5\r\na=fingerprint:sha-256 0A:2D:A9:ED:51:DC:82:A4:F0:B6:79:16:9A:83:6B:B4:96:AB:08:A3:94:62:37:35:8A:09:E5:56:FC:DC:C6:AD\r\na=setup:active\r\n","type":"answer"}
+2026/04/09 09:00:39.851 | INFO | Answer SDP length: 1792
+2026/04/09 09:00:39.851 | INFO | IceConnectionState: Checking
+2026/04/09 09:00:39.851 | INFO | OnTrack video
+2026/04/09 09:00:39.851 | INFO | ConnectionState: Connecting
+2026/04/09 09:00:39.870 | INFO | Applied answer
+2026/04/09 09:00:40.445 | INFO | ConnectionState: Connected
+2026/04/09 09:00:40.445 | INFO | IceConnectionState: Connected
+2026/04/09 09:00:40.495 | INFO | code added: EM
+2026/04/09 09:00:41.511 | INFO | code added: 
+2026/04/09 09:00:43.886 | INFO | code added: T
+2026/04/09 09:00:46.924 | INFO | code added: P
+2026/04/09 09:00:55.104 | INFO | IceConnectionState: Completed
+2026/04/09 09:01:07.283 | INFO | valid code: MEMTP
+2026/04/09 09:01:07.283 | INFO | Determined job code is MEMTP
+2026/04/09 09:01:07.290 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMTP"
+}
+
+2026/04/09 09:01:07.290 | WARN | capture fail: {"step": "CAPTURE_FAIL", "data": ""} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Warn
+
+2026/04/09 09:01:17.536 | INFO | valid code: MEMTP
+2026/04/09 09:01:17.537 | INFO | Determined job code is MEMTP
+
+2026/04/09 09:01:17.537 | WARN | capture fail: {"step": "CAPTURE_FAIL", "data": ""} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Warn
+
+2026/04/09 09:01:17.537 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMTP"
+}
+2026/04/09 09:01:27.750 | INFO | valid code: MEMTP
+2026/04/09 09:01:27.750 | INFO | Determined job code is MEMTP
+2026/04/09 09:01:27.757 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMTP"
+}
+
+2026/04/09 09:01:27.757 | WARN | capture fail: {"step": "CAPTURE_FAIL", "data": ""} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Warn
+
+
+2026/04/09 09:01:27.757 | WARN | capture error: {"step": "CAPTURE_ERROR", "data": "max attempts reached"} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Warn
+
+2026/04/09 09:01:30.726 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/04/09 09:01:31.561 | INFO | NationCode Changed: ko
+2026/04/09 09:01:31.912 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/04/09 09:01:35.027 | INFO | Gender Selected: M
+2026/04/09 09:01:36.301 | INFO | code added: 
+2026/04/09 09:01:37.445 | INFO | code added: IH
+2026/04/09 09:01:38.610 | INFO | code added: 
+2026/04/09 09:01:39.775 | INFO | code added: T
+2026/04/09 09:01:40.884 | INFO | code added: P
+2026/04/09 09:02:00.488 | INFO | valid code: MIHTP
+2026/04/09 09:02:00.488 | INFO | Determined job code is MIHTP
+
+2026/04/09 09:02:00.492 | WARN | capture fail: {"step": "CAPTURE_FAIL", "data": ""} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Warn
+
+2026/04/09 09:02:00.492 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MIHTP"
+}
+2026/04/09 09:02:10.572 | INFO | valid code: MIHTP
+2026/04/09 09:02:10.572 | INFO | Determined job code is MIHTP
+2026/04/09 09:02:10.588 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MIHTP"
+}
+2026/04/09 09:02:10.618 | INFO | redis get AI START
+2026/04/09 09:02:10.618 | INFO | AI START execute
+
+2026/04/09 09:02:12.647 | ERROR | Error Occured: comfyui websocket connection failed 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Error
+
+2026/04/09 09:04:43.227 | INFO | NLog init completed.
+2026/04/09 09:04:43.330 | INFO | XML Init Completed.
+2026/04/09 09:04:43.865 | INFO | Redis server connected: 192.168.1.164:6379
+2026/04/09 09:04:43.879 | INFO | ProgramManager init completed

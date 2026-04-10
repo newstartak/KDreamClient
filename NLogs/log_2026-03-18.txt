@@ -1,0 +1,105 @@
+2026/03/18 14:28:00.728 | INFO | NLog init completed.
+2026/03/18 14:28:00.779 | INFO | XML Init Completed.
+2026/03/18 14:28:01.277 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/18 14:28:01.287 | INFO | ProgramManager init completed
+2026/03/18 14:28:02.624 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/18 14:28:06.693 | DEBUG | test mode unlocking 1/3
+2026/03/18 14:28:08.077 | DEBUG | test mode unlocking 2/3
+2026/03/18 14:28:09.767 | DEBUG | test mode unlocked 3/3
+2026/03/18 14:28:09.767 | DEBUG | Test Mode: True
+2026/03/18 14:28:10.353 | INFO | NationCode Changed: ko
+2026/03/18 14:28:13.947 | INFO | Gender Selected: M
+2026/03/18 14:28:15.079 | INFO | code added: 
+2026/03/18 14:28:16.382 | INFO | code added: IL
+2026/03/18 14:28:17.727 | INFO | code added: 
+2026/03/18 14:28:19.157 | INFO | code added: R
+2026/03/18 14:28:20.445 | INFO | code added: J
+2026/03/18 14:28:29.612 | INFO | redis get AI START
+2026/03/18 14:28:29.612 | INFO | AI START execute
+2026/03/18 14:28:29.612 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/03/18 14:28:37.628 | INFO | redis get AI complete
+2026/03/18 14:28:37.628 | INFO | ai complete execute
+2026/03/18 14:28:37.759 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/18 14:28:38.342 | INFO | Upload Completed: https://storage.googleapis.com/kdream/1f8541b1-0a90-4b9a-a507-38c95fc85eca
+2026/03/18 14:28:52.274 | INFO | NLog init completed.
+2026/03/18 14:28:52.284 | INFO | XML Init Completed.
+2026/03/18 14:28:52.519 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/18 14:28:52.519 | INFO | ProgramManager init completed
+2026/03/18 14:28:52.568 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/18 14:28:54.086 | INFO | NationCode Changed: ja
+2026/03/18 14:28:57.996 | INFO | Gender Selected: M
+2026/03/18 14:28:59.197 | INFO | code added: 
+2026/03/18 14:29:00.406 | INFO | code added: EB
+2026/03/18 14:29:01.563 | INFO | code added: 
+2026/03/18 14:29:02.766 | INFO | code added: T
+2026/03/18 14:29:03.890 | INFO | code added: J
+2026/03/18 14:29:07.615 | INFO | redis get AI START
+2026/03/18 14:29:07.615 | INFO | AI START execute
+2026/03/18 14:29:07.615 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/03/18 14:29:11.952 | INFO | redis get AI complete
+2026/03/18 14:29:11.952 | INFO | ai complete execute
+2026/03/18 14:29:12.000 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/18 14:29:12.468 | INFO | Upload Completed: https://storage.googleapis.com/kdream/b2ff27a0-fc3b-4e6e-81f6-800ad8c2f19c
+2026/03/18 14:49:30.071 | INFO | NLog init completed.
+2026/03/18 14:49:30.123 | INFO | XML Init Completed.
+2026/03/18 14:49:30.245 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/18 14:49:30.256 | INFO | ProgramManager init completed
+2026/03/18 14:49:30.747 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/18 14:49:33.464 | INFO | NationCode Changed: ko
+2026/03/18 14:49:33.797 | INFO | GatheringState: Gathering
+2026/03/18 14:49:33.902 | INFO | Offer SDP length: 4706
+2026/03/18 14:49:33.909 | INFO | GatheringState: Complete
+2026/03/18 14:49:38.936 | INFO | HTTP response raw:
+{"sdp":"v=0\r\no=- 3982801757 3982801757 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic:WMS *\r\nm=video 62620 UDP/TLS/RTP/SAVPF 127 118 123 115 122 114\r\nc=IN IP4 192.168.1.164\r\na=sendonly\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=mid:0\r\na=msid:d6bc8463-e6ab-4885-bd3c-0c37438a06a7 9ebf027b-e04e-4d95-a8ce-2160e3ce1387\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=ssrc-group:FID 4137728417 794975454\r\na=ssrc:4137728417 cname:6239352e-a496-4dd1-b4d9-eb8db4694ded\r\na=ssrc:794975454 cname:6239352e-a496-4dd1-b4d9-eb8db4694ded\r\na=rtpmap:127 VP8/90000\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtcp-fb:127 goog-remb\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=127\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=rtcp-fb:123 goog-remb\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=123\r\na=rtpmap:122 H264/90000\r\na=rtcp-fb:122 nack\r\na=rtcp-fb:122 nack pli\r\na=rtcp-fb:122 goog-remb\r\na=fmtp:122 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=122\r\na=candidate:c898ddd7c7adc3376b8a75649ad0ca06 1 udp 2130706431 192.168.1.164 62620 typ host\r\na=candidate:11f89ca55a96e8290d3fc26826f60b5f 1 udp 2130706431 192.168.174.1 62621 typ host\r\na=candidate:41f164e0e59e0dfac0e20182ad10d439 1 udp 2130706431 192.168.26.1 62622 typ host\r\na=candidate:90d38b183c212328c4928367840d5b66 1 udp 2130706431 172.29.240.1 62623 typ host\r\na=candidate:01c7ba8e2d2ac64b72eab5f65d0fde5b 1 udp 1694498815 218.39.192.112 62620 typ srflx raddr 192.168.1.164 rport 62620\r\na=end-of-candidates\r\na=ice-ufrag:mooA\r\na=ice-pwd:At2jiowL9w7a8iq80rtMX4\r\na=fingerprint:sha-256 9B:80:1D:EC:F3:7B:70:62:09:12:82:9D:55:42:92:3A:18:01:20:FA:FF:AF:66:EC:25:0A:62:39:42:D2:CF:4F\r\na=setup:active\r\n","type":"answer"}
+2026/03/18 14:49:38.936 | INFO | Answer SDP length: 1881
+2026/03/18 14:49:38.942 | INFO | IceConnectionState: Checking
+2026/03/18 14:49:38.942 | INFO | OnTrack video
+2026/03/18 14:49:38.942 | INFO | ConnectionState: Connecting
+2026/03/18 14:49:38.942 | INFO | Applied answer
+
+2026/03/18 14:49:39.593 | ERROR | Error Occured: camera disconnected 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__7.MoveNext => NLogManager.Error
+
+2026/03/18 14:49:39.616 | INFO | ConnectionState: Connected
+2026/03/18 14:49:39.616 | INFO | IceConnectionState: Connected
+2026/03/18 14:59:25.082 | INFO | NLog init completed.
+2026/03/18 14:59:25.132 | INFO | XML Init Completed.
+2026/03/18 14:59:25.561 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/18 14:59:25.571 | INFO | ProgramManager init completed
+2026/03/18 14:59:26.757 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/18 14:59:28.589 | DEBUG | test mode unlocking 1/3
+2026/03/18 14:59:29.934 | DEBUG | test mode unlocking 2/3
+2026/03/18 14:59:31.806 | DEBUG | test mode unlocked 3/3
+2026/03/18 14:59:31.806 | DEBUG | Test Mode: True
+2026/03/18 14:59:32.591 | INFO | NationCode Changed: zh

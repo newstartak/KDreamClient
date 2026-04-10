@@ -1,0 +1,3560 @@
+2026/03/04 15:37:32.414 | INFO | NLog init completed.
+
+2026/03/04 15:37:32.455 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x000d1] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:194  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 15:38:28.939 | INFO | NLog init completed.
+
+2026/03/04 15:38:28.986 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x000d1] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:194  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 15:39:08.976 | INFO | NLog init completed.
+2026/03/04 15:39:09.006 | INFO | XML Init Completed.
+2026/03/04 15:39:09.151 | INFO | Redis server connected: 192.168.1.164:6379
+
+2026/03/04 15:39:13.442 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x000d1] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:194  
+-
+ ScMainManager.SetLanguage => XmlManager.SetLangXml => NLogManager.Error
+
+
+2026/03/04 15:39:14.912 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x000d1] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:194  
+-
+ ScMainManager.SetLanguage => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 15:39:53.640 | INFO | NLog init completed.
+2026/03/04 15:39:53.683 | INFO | XML Init Completed.
+2026/03/04 15:39:53.806 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/04 15:39:57.900 | INFO | NationCode Changed: ko
+2026/03/04 15:39:58.330 | INFO | GatheringState: Gathering
+2026/03/04 15:39:58.433 | INFO | Offer SDP length: 4706
+2026/03/04 15:39:58.433 | INFO | GatheringState: Complete
+2026/03/04 15:40:03.459 | INFO | HTTP response raw:
+{"sdp":"v=0\r\no=- 3981595173 3981595173 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic:WMS *\r\nm=video 58683 UDP/TLS/RTP/SAVPF 127 118 123 115 122 114\r\nc=IN IP4 192.168.1.164\r\na=sendonly\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=mid:0\r\na=msid:e9491dd7-3fbc-40e5-a6ba-b9c8e26129f0 4b5e85e5-59eb-403c-8107-29851730d10a\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=ssrc-group:FID 2577485886 1164439902\r\na=ssrc:2577485886 cname:97ca0009-4b51-4433-8011-a67fe7f639a9\r\na=ssrc:1164439902 cname:97ca0009-4b51-4433-8011-a67fe7f639a9\r\na=rtpmap:127 VP8/90000\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtcp-fb:127 goog-remb\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=127\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=rtcp-fb:123 goog-remb\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=123\r\na=rtpmap:122 H264/90000\r\na=rtcp-fb:122 nack\r\na=rtcp-fb:122 nack pli\r\na=rtcp-fb:122 goog-remb\r\na=fmtp:122 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=122\r\na=candidate:c898ddd7c7adc3376b8a75649ad0ca06 1 udp 2130706431 192.168.1.164 58683 typ host\r\na=candidate:11f89ca55a96e8290d3fc26826f60b5f 1 udp 2130706431 192.168.174.1 58684 typ host\r\na=candidate:41f164e0e59e0dfac0e20182ad10d439 1 udp 2130706431 192.168.26.1 58685 typ host\r\na=candidate:90d38b183c212328c4928367840d5b66 1 udp 2130706431 172.29.240.1 58686 typ host\r\na=candidate:01c7ba8e2d2ac64b72eab5f65d0fde5b 1 udp 1694498815 218.39.192.112 58683 typ srflx raddr 192.168.1.164 rport 58683\r\na=end-of-candidates\r\na=ice-ufrag:reJm\r\na=ice-pwd:uBjUyFq0X7bHYCEAsdJlKl\r\na=fingerprint:sha-256 C2:1F:C3:32:F9:E7:02:AB:A3:7B:E6:8F:80:D5:DD:0B:93:DF:7C:4F:46:BF:72:4C:33:D8:1F:21:A3:F4:1A:E8\r\na=setup:active\r\n","type":"answer"}
+2026/03/04 15:40:03.459 | INFO | Answer SDP length: 1883
+2026/03/04 15:40:03.459 | INFO | IceConnectionState: Checking
+2026/03/04 15:40:03.459 | INFO | OnTrack video
+2026/03/04 15:40:03.459 | INFO | ConnectionState: Connecting
+2026/03/04 15:40:03.476 | INFO | Applied answer
+2026/03/04 15:40:04.068 | INFO | ConnectionState: Connected
+2026/03/04 15:40:04.068 | INFO | IceConnectionState: Connected
+2026/03/04 15:40:06.351 | INFO | Command received: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:40:06.351 | INFO | Command received: {"step": "CAPTURE_FAIL", "data": ""}
+2026/03/04 15:40:06.351 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:40:07.053 | INFO | Command received: {"step": "CAPTURE_FAIL", "data": ""}
+2026/03/04 15:40:07.754 | INFO | Command received: {"step": "CAPTURE_EROR", "data": "Face not detected"}
+2026/03/04 15:40:13.479 | INFO | Command received: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:40:13.479 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:40:18.860 | INFO | IceConnectionState: Completed
+2026/03/04 15:40:30.963 | INFO | Command received: {"step": "AI_COMPLETE", "data": {"path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png", "job": "임금"}}
+
+2026/03/04 15:40:30.963 | WARN | Unknown command: {"step": "AI_COMPLETE", "data": {"path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png", "job": "임금"}} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:42:40.989 | INFO | NLog init completed.
+2026/03/04 15:42:41.019 | INFO | XML Init Completed.
+2026/03/04 15:42:41.440 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/04 15:42:43.870 | INFO | NationCode Changed: ko
+2026/03/04 15:42:44.194 | INFO | GatheringState: Gathering
+2026/03/04 15:42:44.297 | INFO | Offer SDP length: 4706
+2026/03/04 15:42:44.305 | INFO | GatheringState: Complete
+2026/03/04 15:42:49.317 | INFO | HTTP response raw:
+{"sdp":"v=0\r\no=- 3981595339 3981595339 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic:WMS *\r\nm=video 55650 UDP/TLS/RTP/SAVPF 127 118 123 115 122 114\r\nc=IN IP4 192.168.1.164\r\na=sendonly\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=mid:0\r\na=msid:9dff2ed2-a033-4eb7-a846-1f6d01692a75 c60d64b8-f6f7-43a6-93e1-90ff8936cef9\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=ssrc-group:FID 1089008791 2837739998\r\na=ssrc:1089008791 cname:16e0dccf-08d0-49ec-b30d-12558092fe45\r\na=ssrc:2837739998 cname:16e0dccf-08d0-49ec-b30d-12558092fe45\r\na=rtpmap:127 VP8/90000\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtcp-fb:127 goog-remb\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=127\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=rtcp-fb:123 goog-remb\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=123\r\na=rtpmap:122 H264/90000\r\na=rtcp-fb:122 nack\r\na=rtcp-fb:122 nack pli\r\na=rtcp-fb:122 goog-remb\r\na=fmtp:122 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=122\r\na=candidate:c898ddd7c7adc3376b8a75649ad0ca06 1 udp 2130706431 192.168.1.164 55650 typ host\r\na=candidate:11f89ca55a96e8290d3fc26826f60b5f 1 udp 2130706431 192.168.174.1 55651 typ host\r\na=candidate:41f164e0e59e0dfac0e20182ad10d439 1 udp 2130706431 192.168.26.1 55652 typ host\r\na=candidate:90d38b183c212328c4928367840d5b66 1 udp 2130706431 172.29.240.1 55653 typ host\r\na=candidate:01c7ba8e2d2ac64b72eab5f65d0fde5b 1 udp 1694498815 218.39.192.112 55650 typ srflx raddr 192.168.1.164 rport 55650\r\na=end-of-candidates\r\na=ice-ufrag:F5Ix\r\na=ice-pwd:jo0wUBJ2fEyVUcaTgum9Mj\r\na=fingerprint:sha-256 9A:08:71:5E:26:C8:E8:C7:80:C9:D8:C9:50:0A:92:F3:A8:E7:E8:B0:7E:95:99:31:73:1D:49:AF:C1:A4:5A:E7\r\na=setup:active\r\n","type":"answer"}
+2026/03/04 15:42:49.317 | INFO | Answer SDP length: 1883
+2026/03/04 15:42:49.317 | INFO | IceConnectionState: Checking
+2026/03/04 15:42:49.317 | INFO | OnTrack video
+2026/03/04 15:42:49.317 | INFO | ConnectionState: Connecting
+2026/03/04 15:42:49.335 | INFO | Applied answer
+2026/03/04 15:42:49.975 | INFO | ConnectionState: Connected
+2026/03/04 15:42:49.975 | INFO | IceConnectionState: Connected
+2026/03/04 15:43:00.657 | INFO | Command received: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:43:00.665 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:43:04.704 | INFO | IceConnectionState: Completed
+2026/03/04 15:43:17.418 | INFO | Command received: {"step": "AI_COMPLETE", "data": {"path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png", "job": "임금"}}
+
+2026/03/04 15:43:17.418 | WARN | Unknown command: {"step": "AI_COMPLETE", "data": {"path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png", "job": "임금"}} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:12.332 | INFO | NLog init completed.
+2026/03/04 15:44:12.363 | INFO | XML Init Completed.
+2026/03/04 15:44:12.758 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/04 15:44:12.910 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:12.910 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:13.095 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:13.095 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:13.298 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:13.298 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:13.500 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:13.500 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:13.703 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:13.703 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:13.905 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:13.905 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:14.107 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:14.107 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:14.309 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:14.309 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:14.512 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:14.512 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:14.714 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:14.714 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:14.917 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:14.917 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:15.121 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:15.121 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:15.324 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:15.324 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:15.526 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:15.526 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:15.730 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:15.730 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:15.930 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:15.930 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:16.134 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:16.134 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:16.338 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:16.338 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:16.544 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:16.544 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:16.745 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:16.745 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:16.947 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:16.947 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:17.150 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:17.150 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:17.352 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:17.352 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:17.554 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:17.554 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:17.756 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:17.756 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:17.960 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:17.960 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:18.162 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:18.162 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:18.364 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:18.364 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:18.567 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:18.567 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:18.770 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:18.770 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:18.972 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:18.972 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:19.174 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:19.174 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:19.377 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:19.377 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:19.580 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:19.580 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:19.783 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:19.783 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:19.985 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:19.985 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:20.187 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:20.187 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:20.391 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:20.391 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:20.595 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:20.595 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:20.799 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:20.799 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:21.002 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:21.002 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:21.203 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:21.203 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:21.405 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:21.405 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:21.609 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:21.609 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:21.814 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:21.814 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:22.017 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:22.017 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:22.220 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:22.220 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:22.422 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:22.422 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:22.625 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:22.625 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:22.826 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:22.826 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:23.018 | INFO | NationCode Changed: ko
+2026/03/04 15:44:23.030 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:23.030 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:23.267 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:23.267 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:23.343 | INFO | GatheringState: Gathering
+2026/03/04 15:44:23.435 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:23.435 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:23.450 | INFO | Offer SDP length: 4704
+2026/03/04 15:44:23.457 | INFO | GatheringState: Complete
+2026/03/04 15:44:23.636 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:23.636 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:23.838 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:23.838 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:24.041 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:24.041 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:24.244 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:24.244 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:24.446 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:24.446 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:24.650 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:24.650 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:24.852 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:24.852 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:25.055 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:25.055 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:25.258 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:25.258 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:25.460 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:25.460 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:25.663 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:25.663 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:25.864 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:25.864 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:26.069 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:26.069 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:26.273 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:26.273 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:26.475 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:26.475 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:26.677 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:26.677 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:26.879 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:26.879 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:27.083 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:27.083 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:27.286 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:27.286 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:27.488 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:27.488 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:27.691 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:27.692 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:27.892 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:27.892 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:28.094 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:28.094 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:28.296 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:28.296 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:28.479 | INFO | HTTP response raw:
+{"sdp":"v=0\r\no=- 3981595438 3981595438 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic:WMS *\r\nm=video 61534 UDP/TLS/RTP/SAVPF 127 118 123 115 122 114\r\nc=IN IP4 192.168.1.164\r\na=sendonly\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=mid:0\r\na=msid:89fdcf66-25aa-4470-a0af-bf4a4811c060 cbbb7179-f4c6-4046-9ee3-84c694c11a90\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=ssrc-group:FID 3744344815 3153162899\r\na=ssrc:3744344815 cname:7de9e267-1da6-4033-bd24-6700b310d9be\r\na=ssrc:3153162899 cname:7de9e267-1da6-4033-bd24-6700b310d9be\r\na=rtpmap:127 VP8/90000\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtcp-fb:127 goog-remb\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=127\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=rtcp-fb:123 goog-remb\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=123\r\na=rtpmap:122 H264/90000\r\na=rtcp-fb:122 nack\r\na=rtcp-fb:122 nack pli\r\na=rtcp-fb:122 goog-remb\r\na=fmtp:122 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=122\r\na=candidate:c898ddd7c7adc3376b8a75649ad0ca06 1 udp 2130706431 192.168.1.164 61534 typ host\r\na=candidate:11f89ca55a96e8290d3fc26826f60b5f 1 udp 2130706431 192.168.174.1 61535 typ host\r\na=candidate:41f164e0e59e0dfac0e20182ad10d439 1 udp 2130706431 192.168.26.1 61536 typ host\r\na=candidate:90d38b183c212328c4928367840d5b66 1 udp 2130706431 172.29.240.1 61537 typ host\r\na=candidate:01c7ba8e2d2ac64b72eab5f65d0fde5b 1 udp 1694498815 218.39.192.112 61534 typ srflx raddr 192.168.1.164 rport 61534\r\na=end-of-candidates\r\na=ice-ufrag:eCyi\r\na=ice-pwd:GJ3ouVxuo0ufvqfgE7tk60\r\na=fingerprint:sha-256 D4:49:0D:C7:FF:73:0F:9A:76:01:CE:F3:92:E3:1F:76:5A:61:9F:52:93:FF:31:58:F4:B5:19:C8:4F:DE:EE:32\r\na=setup:active\r\n","type":"answer"}
+2026/03/04 15:44:28.479 | INFO | Answer SDP length: 1883
+2026/03/04 15:44:28.479 | INFO | IceConnectionState: Checking
+2026/03/04 15:44:28.479 | INFO | OnTrack video
+2026/03/04 15:44:28.488 | INFO | ConnectionState: Connecting
+2026/03/04 15:44:28.488 | INFO | Applied answer
+2026/03/04 15:44:28.488 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:28.488 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:28.702 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:28.702 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:28.904 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:28.904 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:29.107 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:29.107 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:29.155 | INFO | ConnectionState: Connected
+2026/03/04 15:44:29.155 | INFO | IceConnectionState: Connected
+2026/03/04 15:44:29.311 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:29.311 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:29.513 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:29.513 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:29.716 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:29.716 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:29.918 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:29.918 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:30.121 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:30.121 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:30.323 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:30.323 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:30.525 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:30.525 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:30.727 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:30.727 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:30.931 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:30.931 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:31.133 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:31.133 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:31.335 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:31.335 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:31.537 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:31.537 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:31.739 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:31.739 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:31.940 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:31.941 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:32.148 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:32.148 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:32.350 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:32.350 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:32.553 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:32.553 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:32.755 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:32.755 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:32.957 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:32.957 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:33.159 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:33.160 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:33.362 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:33.362 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:33.564 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:33.564 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:33.766 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:33.766 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:33.967 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:33.967 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:34.170 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:34.170 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:34.372 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:34.372 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:34.575 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:34.575 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:34.778 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:34.778 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:34.933 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:34.933 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:35.133 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:35.133 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:35.234 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:35.234 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:35.286 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:35.286 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:35.437 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:35.437 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:35.637 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:35.637 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:35.845 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:35.845 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:36.046 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:36.046 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:36.249 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:36.249 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:36.359 | INFO | Command received: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:44:36.364 | INFO | Command sent: {
+  "step": "CAPTURE_PHOTO",
+  "data": "MEMRJ"
+}
+2026/03/04 15:44:36.394 | INFO | Command received: {"step": "AI_START", "data": ""}
+2026/03/04 15:44:36.452 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:36.452 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:36.653 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:36.653 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:36.857 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:36.857 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:37.059 | INFO | Command received: {"key": "FACE_DETECT", "value": 1}
+
+2026/03/04 15:44:37.059 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 1} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:37.109 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:37.109 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:37.310 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:37.310 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:37.515 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:37.515 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:37.718 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:37.718 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:37.920 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:37.920 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:38.122 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:38.122 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:38.323 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:38.323 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:38.527 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:38.527 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:38.730 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:38.730 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:38.931 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:38.931 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:39.134 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:39.134 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:39.337 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:39.337 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:39.540 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:39.540 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:39.741 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:39.741 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:39.943 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:39.943 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:40.146 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:40.146 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:40.348 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:40.348 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:40.550 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:40.551 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:40.753 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:40.753 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:40.955 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:40.955 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:41.157 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:41.157 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:41.359 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:41.359 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:41.561 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:41.561 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:41.764 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:41.764 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:41.966 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:41.966 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:42.167 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:42.167 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:42.372 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:42.372 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:42.573 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:42.573 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:42.776 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:42.776 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:42.978 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:42.978 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:43.181 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:43.181 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:43.384 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:43.384 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:43.585 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:43.585 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:43.788 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:43.788 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:43.883 | INFO | IceConnectionState: Completed
+2026/03/04 15:44:43.990 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:43.990 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:44.193 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:44.193 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:44.396 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:44.396 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:44.598 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:44.598 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:44.800 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:44.802 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:45.003 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:45.004 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:45.208 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:45.208 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:45.411 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:45.411 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:45.613 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:45.613 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:45.816 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:45.816 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:46.018 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:46.019 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:46.221 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:46.221 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:46.422 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:46.422 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:46.626 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:46.626 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:46.829 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:46.829 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:47.033 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:47.033 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:47.234 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:47.234 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:47.436 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:47.436 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:47.638 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:47.638 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:47.840 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:47.840 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:48.042 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:48.042 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:48.243 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:48.243 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:48.446 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:48.446 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:48.648 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:48.648 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:48.850 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:48.850 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:49.053 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:49.053 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:49.254 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:49.254 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:49.457 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:49.457 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:49.658 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:49.658 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:49.861 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:49.861 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:50.063 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:50.063 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:50.269 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:50.269 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:50.472 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:50.473 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:50.674 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:50.674 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:50.875 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:50.875 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:51.077 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:51.077 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:51.279 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:51.279 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:51.481 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:51.481 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:51.683 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:51.683 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:51.884 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:51.884 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:52.086 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:52.086 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:52.286 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:52.286 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:52.487 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:52.489 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:52.689 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:52.689 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:52.891 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:52.891 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:53.093 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:53.093 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:53.296 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:53.296 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:53.498 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:53.498 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:53.699 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:53.699 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:53.739 | INFO | Command received: {"step": "AI_COMPLETE", "data": {"path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png", "job": "임금"}}
+
+2026/03/04 15:44:53.739 | WARN | Unknown command: {"step": "AI_COMPLETE", "data": {"path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png", "job": "임금"}} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:53.905 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:53.905 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:54.107 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:54.107 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:54.309 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:54.309 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:54.511 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:54.511 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:54.714 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:54.714 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:54.919 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:54.919 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:55.122 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:55.122 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:55.325 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:55.325 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:55.527 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:55.527 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:55.729 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:55.729 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:55.932 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:55.932 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:56.142 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:56.142 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:56.343 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:56.343 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:56.549 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:56.550 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:56.753 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:56.753 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:56.954 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:56.954 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:57.157 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:57.157 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:57.362 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:57.363 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:57.565 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:57.566 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:57.767 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:57.767 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:57.972 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:57.973 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:58.174 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:58.175 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:58.377 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:58.377 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:58.578 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:58.578 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:58.783 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:58.783 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:58.985 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:58.985 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:59.187 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:59.191 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:59.390 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:59.390 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:59.596 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:59.597 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:44:59.799 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:44:59.800 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:00.005 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:00.005 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:00.207 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:00.207 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:00.409 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:00.410 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:00.611 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:00.611 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:00.817 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:00.817 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:01.019 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:01.019 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:01.223 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:01.223 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:01.426 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:01.426 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:01.629 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:01.629 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:01.831 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:01.832 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:02.035 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:02.035 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:02.237 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:02.238 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:02.442 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:02.442 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:02.643 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:02.643 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:02.848 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:02.848 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:03.050 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:03.052 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:03.253 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:03.253 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:03.455 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:03.455 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:03.658 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:03.658 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:03.859 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:03.859 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:04.062 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:04.062 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:04.264 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:04.264 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:04.467 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:04.467 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:04.667 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:04.667 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:04.871 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:04.871 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:05.073 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:05.073 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:05.278 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:05.278 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:05.480 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:05.480 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:05.683 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:05.683 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:05.885 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:05.885 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:06.087 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:06.087 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:06.289 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:06.289 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:06.492 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:06.492 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:06.697 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:06.697 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:06.906 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:06.906 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:07.107 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:07.107 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:07.312 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:07.312 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:07.516 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:07.516 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:07.723 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:07.723 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:07.926 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:07.926 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:08.129 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:08.129 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:08.330 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:08.331 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:08.534 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:08.535 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:08.736 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:08.736 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:08.940 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:08.940 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:09.143 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:09.145 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:09.347 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:09.348 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:09.550 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:09.550 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:09.752 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:09.752 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:09.957 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:09.957 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:10.162 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:10.162 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:10.364 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:10.364 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:10.573 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:10.573 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:10.775 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:10.775 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:10.978 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:10.978 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:11.181 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:11.181 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:11.383 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:11.383 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:11.584 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:11.584 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:11.787 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:11.787 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:11.988 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:11.988 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:12.198 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:12.198 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:12.399 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:12.399 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:12.602 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:12.602 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:12.803 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:12.803 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:13.006 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:13.006 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:13.208 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:13.208 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:13.410 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:13.410 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:13.612 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:13.613 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:13.817 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:13.817 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:14.020 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:14.020 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:14.229 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:14.229 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:14.432 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:14.432 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:14.640 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:14.640 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:14.842 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:14.842 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:15.044 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:15.044 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:15.248 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:15.248 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:15.450 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:15.450 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:15.652 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:15.652 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:15.856 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:15.856 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:16.058 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:16.058 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:16.261 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:16.261 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:16.464 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:16.464 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:16.666 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:16.666 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:16.869 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:16.869 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:17.074 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:17.074 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:17.277 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:17.277 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:17.480 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:17.480 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:17.682 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:17.682 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:17.887 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:17.887 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:18.091 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:18.091 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:18.294 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:18.294 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:18.496 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:18.496 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:18.701 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:18.701 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:18.903 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:18.903 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:19.105 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:19.105 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:19.307 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:19.307 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:19.513 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:19.513 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:19.715 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:19.715 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:19.925 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:19.926 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:20.132 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:20.132 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:20.334 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:20.334 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:20.539 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:20.539 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:20.742 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:20.742 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:20.943 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:20.943 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:21.150 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:21.150 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:21.353 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:21.353 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:21.557 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:21.557 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:21.762 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:21.762 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:21.964 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:21.964 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:22.167 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:22.167 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:22.369 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:22.369 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:22.573 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:22.573 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:22.775 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:22.775 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:22.982 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:22.982 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:23.185 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:23.185 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:23.388 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:23.388 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:23.592 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:23.592 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:23.794 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:23.794 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:23.998 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:23.998 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:24.201 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:24.201 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:24.405 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:24.405 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:24.728 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:24.728 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:24.815 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:24.816 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:25.017 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:25.017 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:25.220 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:25.220 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:25.423 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:25.423 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:25.626 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:25.626 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:25.827 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:25.827 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:26.030 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:26.030 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:26.232 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:26.232 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:26.437 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:26.437 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:26.639 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:26.639 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:26.841 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:26.841 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:27.045 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:27.045 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:27.247 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:27.247 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:27.450 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:27.450 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:27.652 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:27.652 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:27.854 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:27.854 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:28.055 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:28.055 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:28.259 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:28.259 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:28.462 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:28.462 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:28.664 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:28.664 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:28.866 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:28.866 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:29.071 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:29.071 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:29.274 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:29.274 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:29.478 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:29.478 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:29.680 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:29.680 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:29.882 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:29.882 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:30.084 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:30.084 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:30.287 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:30.287 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:30.491 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:30.491 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:30.691 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:30.691 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:30.893 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:30.894 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:31.095 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:31.095 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:31.299 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:31.299 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:31.500 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:31.500 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:31.702 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:31.702 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:31.905 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:31.905 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:32.107 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:32.107 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:32.310 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:32.310 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:32.512 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:32.512 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:32.714 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:32.714 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:32.918 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:32.918 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:33.122 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:33.122 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:33.324 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:33.324 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:33.527 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:33.527 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:33.728 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:33.728 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:33.932 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:33.932 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:34.134 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:34.134 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:34.336 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:34.336 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:34.539 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:34.539 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:34.742 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:34.742 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:34.944 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:34.944 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:35.148 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:35.148 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:35.352 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:35.352 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:35.554 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:35.554 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:35.757 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:35.757 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:35.959 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:35.959 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:36.161 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:36.161 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:36.362 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:36.363 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:36.565 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:36.565 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:36.769 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:36.769 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:36.972 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:36.972 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:37.174 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:37.175 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:37.377 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:37.377 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:37.579 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:37.579 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:37.782 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:37.782 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:37.984 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:37.984 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:38.186 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:38.186 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:38.390 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:38.390 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:38.592 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:38.592 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:38.794 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:38.794 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:38.998 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:38.998 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:39.200 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:39.200 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:39.403 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:39.403 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:39.606 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:39.606 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:39.808 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:39.808 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:40.011 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:40.011 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:40.213 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:40.213 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:40.416 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:40.416 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:40.618 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:40.618 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:40.820 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:40.820 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:41.023 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:41.023 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:41.225 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:41.225 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:41.427 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:41.427 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:41.630 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:41.630 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:41.832 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:41.832 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:42.035 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:42.035 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:42.236 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:42.236 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:42.438 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:42.438 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:42.641 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:42.641 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:42.844 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:42.844 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:43.045 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:43.045 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:43.045 | INFO | Command received: {"key": "ERROR", "value": "comfyui disconnected"}
+
+2026/03/04 15:45:43.045 | WARN | Unknown command: {"key": "ERROR", "value": "comfyui disconnected"} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:43.247 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:43.247 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:43.450 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:43.450 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:43.653 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:43.653 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:43.857 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:43.857 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:44.058 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:44.058 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:44.261 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:44.261 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:44.463 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:44.463 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:44.665 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:44.665 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:44.866 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:44.866 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:45.069 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:45.069 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:45.270 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:45.270 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:45.472 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:45.472 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:45.678 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:45.678 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:45.881 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:45.881 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:46.085 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:46.085 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:46.288 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:46.288 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:46.490 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:46.490 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:46.692 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:46.692 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:46.896 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:46.896 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:47.099 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:47.099 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:47.301 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:47.301 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:47.503 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:47.503 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:47.706 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:47.707 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:47.908 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:47.908 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:48.110 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:48.110 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:48.313 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:48.313 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:48.515 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:48.515 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:48.718 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:48.718 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:48.921 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:48.921 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:49.124 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:49.124 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:49.326 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:49.326 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:49.529 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:49.529 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:49.730 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:49.730 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:49.933 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:49.933 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:50.136 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:50.136 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:50.338 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:50.338 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:50.541 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:50.541 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:50.742 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:50.742 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:50.943 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:50.943 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:51.147 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:51.147 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:51.347 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:51.347 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:51.549 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:51.551 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:51.752 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:51.752 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:51.954 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:51.954 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:52.155 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:52.155 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:52.359 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:52.359 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:52.562 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:52.562 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:52.764 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:52.764 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:52.967 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:52.967 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:53.168 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:53.168 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:53.371 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:53.371 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:53.577 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:53.577 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:53.778 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:53.778 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:53.981 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:53.981 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:54.182 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:54.182 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:54.385 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:54.385 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:54.590 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:54.590 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:54.792 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:54.792 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:54.993 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:54.993 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:55.196 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:55.196 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:55.398 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:55.398 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:55.601 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:55.601 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:55.802 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:55.802 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:56.006 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:56.006 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:56.209 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:56.209 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:56.412 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:56.412 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:56.613 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:56.613 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:56.816 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:56.816 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:57.018 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:57.019 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:57.222 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:57.222 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:57.425 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:57.426 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:57.628 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:57.629 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:57.829 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:57.829 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:58.032 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:58.032 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:58.234 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:58.234 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:58.438 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:58.438 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:58.642 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:58.642 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:58.843 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:58.843 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:59.045 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:59.045 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:59.250 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:59.250 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:59.451 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:59.451 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:59.653 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:59.653 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:45:59.855 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:45:59.855 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:00.057 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:00.057 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:00.260 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:00.260 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:00.462 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:00.462 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:00.664 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:00.664 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:00.866 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:00.866 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:01.068 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:01.068 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:01.272 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:01.272 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:01.474 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:01.474 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:01.676 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:01.676 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:01.879 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:01.879 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:02.081 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:02.082 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:02.283 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:02.283 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:02.486 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:02.486 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:02.689 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:02.689 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:02.891 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:02.891 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:03.092 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:03.092 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:03.295 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:03.295 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:03.497 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:03.497 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:03.701 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:03.701 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:03.902 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:03.902 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:04.104 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:04.104 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:04.305 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:04.305 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:04.508 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:04.508 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:46:04.711 | INFO | Command received: {"key": "FACE_DETECT", "value": 0}
+
+2026/03/04 15:46:04.711 | WARN | Unknown command: {"key": "FACE_DETECT", "value": 0} 
+-
+ AsyncTaskMethodBuilder.Start => <HandleCommand>d__3.MoveNext => NLogManager.Warn
+
+2026/03/04 15:48:13.447 | INFO | NLog init completed.
+2026/03/04 15:48:13.490 | INFO | XML Init Completed.
+2026/03/04 15:48:13.898 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/04 15:49:57.868 | INFO | NLog init completed.
+2026/03/04 15:49:57.910 | INFO | XML Init Completed.
+2026/03/04 15:49:58.059 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/04 16:51:30.009 | INFO | NLog init completed.
+
+2026/03/04 16:51:30.059 | ERROR | LANGUAGE xml init error: System.Xml.XmlException: The 'qnas' start tag on line 138 position 6 does not match the end tag of 'QnAs'. Line 316, position 7.
+  at System.Xml.XmlTextReaderImpl.Throw (System.Exception e) [0x00027] in <2c6bf52753204f258253c9457c491884>:0 
+  at System.Xml.XmlTextReaderImpl.Throw (System.String res, System.String[] args) [0x00029] in <2c6bf52753204f258253c9457c491884>:0 
+  at System.Xml.XmlTextReaderImpl.ThrowTagMismatch (System.Xml.XmlTextReaderImpl+NodeData startTag) [0x00086] in <2c6bf52753204f258253c9457c491884>:0 
+  at System.Xml.XmlTextReaderImpl.ParseEndElement () [0x00085] in <2c6bf52753204f258253c9457c491884>:0 
+  at System.Xml.XmlTextReaderImpl.ParseElementContent () [0x00149] in <2c6bf52753204f258253c9457c491884>:0 
+  at System.Xml.XmlTextReaderImpl.Read () [0x00085] in <2c6bf52753204f258253c9457c491884>:0 
+  at System.Xml.Linq.XContainer.ReadContentFrom (System.Xml.XmlReader r) [0x00025] in <c28c47dae63941ae897690be8928ad4f>:0 
+  at System.Xml.Linq.XContainer.ReadContentFrom (System.Xml.XmlReader r, System.Xml.Linq.LoadOptions o) [0x00005] in <c28c47dae63941ae897690be8928ad4f>:0 
+  at System.Xml.Linq.XDocument.Load (System.Xml.XmlReader reader, System.Xml.Linq.LoadOptions options) [0x00024] in <c28c47dae63941ae897690be8928ad4f>:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri, System.Xml.Linq.LoadOptions options) [0x0000f] in <c28c47dae63941ae897690be8928ad4f>:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri) [0x00000] in <c28c47dae63941ae897690be8928ad4f>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x00008] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:158  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 16:52:11.382 | INFO | NLog init completed.
+
+2026/03/04 16:52:11.437 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x0024e] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:202  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 16:52:41.754 | INFO | NLog init completed.
+
+2026/03/04 16:52:41.827 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x0024e] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:202  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 16:53:26.477 | INFO | NLog init completed.
+
+2026/03/04 16:53:32.839 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x0024e] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:202  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 16:53:47.877 | INFO | NLog init completed.
+
+2026/03/04 16:54:41.850 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x0024e] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:202  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 16:54:54.194 | INFO | NLog init completed.
+
+2026/03/04 16:54:56.924 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x0024e] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:202  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 16:55:11.237 | INFO | NLog init completed.
+
+2026/03/04 16:55:57.868 | ERROR | LANGUAGE xml init error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at XmlManager.SetLangXml (NationCode nc) [0x0024e] in C:\xorbis\Unity\Projects\KDreamClient\Assets\02. Scripts\STATIC\Xml\XmlManager.cs:202  
+-
+ XmlManager.InitConfig => XmlManager.SetLangXml => NLogManager.Error
+
+2026/03/04 16:56:26.746 | INFO | NLog init completed.
+2026/03/04 16:56:26.796 | INFO | XML Init Completed.
+2026/03/04 16:56:27.233 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/04 16:56:35.214 | INFO | NationCode Changed: ja

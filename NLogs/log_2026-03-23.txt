@@ -1,0 +1,133 @@
+2026/03/23 13:14:49.201 | INFO | NLog init completed.
+2026/03/23 13:14:49.246 | INFO | XML Init Completed.
+2026/03/23 13:14:51.162 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/23 13:14:51.171 | INFO | ProgramManager init completed
+2026/03/23 13:14:54.946 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:15:04.252 | DEBUG | test mode unlocking 1/3
+2026/03/23 13:15:04.401 | DEBUG | test mode unlock failed
+2026/03/23 13:15:06.565 | DEBUG | test mode unlocking 1/3
+2026/03/23 13:15:06.851 | DEBUG | test mode unlock failed
+2026/03/23 13:15:12.791 | DEBUG | test mode unlocking 1/3
+2026/03/23 13:15:17.826 | DEBUG | test mode unlocking 2/3
+2026/03/23 13:15:18.441 | DEBUG | test mode unlock failed
+2026/03/23 13:15:21.783 | DEBUG | test mode unlocking 1/3
+2026/03/23 13:15:23.922 | DEBUG | test mode unlocking 2/3
+2026/03/23 13:15:26.349 | DEBUG | test mode unlocked 3/3
+2026/03/23 13:15:26.349 | DEBUG | Test Mode: True
+2026/03/23 13:15:29.243 | INFO | NationCode Changed: zh
+2026/03/23 13:15:39.813 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:15:40.462 | INFO | NationCode Changed: ja
+2026/03/23 13:15:46.559 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:15:47.275 | INFO | NationCode Changed: zh
+2026/03/23 13:15:51.911 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:22:19.760 | INFO | NLog init completed.
+2026/03/23 13:22:19.813 | INFO | XML Init Completed.
+2026/03/23 13:22:19.941 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/23 13:22:19.949 | INFO | ProgramManager init completed
+2026/03/23 13:22:23.730 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:22:26.464 | INFO | NationCode Changed: ko
+2026/03/23 13:22:26.464 | INFO | Command sent: {
+  "lang": "ko",
+  "": ""
+}
+2026/03/23 13:22:26.952 | INFO | GatheringState: Gathering
+2026/03/23 13:22:27.056 | INFO | Offer SDP length: 4703
+2026/03/23 13:22:27.056 | INFO | GatheringState: Complete
+2026/03/23 13:22:32.084 | INFO | HTTP response raw:
+{"sdp":"v=0\r\no=- 3983228510 3983228510 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic:WMS *\r\nm=video 55533 UDP/TLS/RTP/SAVPF 127 118 123 115 122 114\r\nc=IN IP4 192.168.1.164\r\na=sendonly\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=mid:0\r\na=msid:f132abe2-d9f2-4d92-963f-af8266daa1b3 ed107326-6139-4192-955e-7279b3a02bdd\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=ssrc-group:FID 3865756088 2114730585\r\na=ssrc:3865756088 cname:ed3f576a-5731-40c1-b338-c7bf17e993c4\r\na=ssrc:2114730585 cname:ed3f576a-5731-40c1-b338-c7bf17e993c4\r\na=rtpmap:127 VP8/90000\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=rtcp-fb:127 goog-remb\r\na=rtpmap:118 rtx/90000\r\na=fmtp:118 apt=127\r\na=rtpmap:123 H264/90000\r\na=rtcp-fb:123 nack\r\na=rtcp-fb:123 nack pli\r\na=rtcp-fb:123 goog-remb\r\na=fmtp:123 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:115 rtx/90000\r\na=fmtp:115 apt=123\r\na=rtpmap:122 H264/90000\r\na=rtcp-fb:122 nack\r\na=rtcp-fb:122 nack pli\r\na=rtcp-fb:122 goog-remb\r\na=fmtp:122 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:114 rtx/90000\r\na=fmtp:114 apt=122\r\na=candidate:c898ddd7c7adc3376b8a75649ad0ca06 1 udp 2130706431 192.168.1.164 55533 typ host\r\na=candidate:11f89ca55a96e8290d3fc26826f60b5f 1 udp 2130706431 192.168.174.1 55534 typ host\r\na=candidate:41f164e0e59e0dfac0e20182ad10d439 1 udp 2130706431 192.168.26.1 55535 typ host\r\na=candidate:01c7ba8e2d2ac64b72eab5f65d0fde5b 1 udp 1694498815 218.39.192.112 55533 typ srflx raddr 192.168.1.164 rport 55533\r\na=end-of-candidates\r\na=ice-ufrag:BlXL\r\na=ice-pwd:IsWvgZNBVF1rzTiocwGy5a\r\na=fingerprint:sha-256 DF:C5:9C:AB:1F:AD:FC:6A:C9:36:BB:1E:EB:3C:3C:12:63:D2:01:9F:1F:76:45:47:88:72:36:08:43:5A:78:DA\r\na=setup:active\r\n","type":"answer"}
+2026/03/23 13:22:32.084 | INFO | Answer SDP length: 1792
+2026/03/23 13:22:32.089 | INFO | IceConnectionState: Checking
+2026/03/23 13:22:32.089 | INFO | OnTrack video
+2026/03/23 13:22:32.089 | INFO | ConnectionState: Connecting
+2026/03/23 13:22:32.101 | INFO | Applied answer
+2026/03/23 13:22:32.650 | INFO | ConnectionState: Connected
+2026/03/23 13:22:32.650 | INFO | IceConnectionState: Connected
+2026/03/23 13:22:41.845 | INFO | IceConnectionState: Disconnected
+2026/03/23 13:22:41.845 | INFO | ConnectionState: Disconnected
+2026/03/23 13:22:51.841 | INFO | IceConnectionState: Failed
+2026/03/23 13:22:51.841 | INFO | ConnectionState: Failed
+2026/03/23 13:23:21.723 | INFO |  has been canceled.
+2026/03/23 13:23:22.209 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:23:40.244 | INFO | NationCode Changed: ko
+2026/03/23 13:23:40.529 | INFO | Command sent: {
+  "lang": "ko",
+  "": ""
+}
+2026/03/23 13:23:42.894 | INFO |  has been canceled.
+2026/03/23 13:23:43.138 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:23:43.606 | INFO | NationCode Changed: en
+2026/03/23 13:23:43.877 | INFO | Command sent: {
+  "lang": "en",
+  "": ""
+}
+2026/03/23 13:23:46.026 | INFO |  has been canceled.
+2026/03/23 13:23:46.269 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:23:47.223 | INFO | NationCode Changed: zh
+2026/03/23 13:23:47.493 | INFO | Command sent: {
+  "lang": "zh",
+  "": ""
+}
+2026/03/23 13:23:48.538 | INFO |  has been canceled.
+2026/03/23 13:23:48.785 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:23:49.132 | INFO | NationCode Changed: ja
+2026/03/23 13:23:49.401 | INFO | Command sent: {
+  "lang": "ja",
+  "": ""
+}
+2026/03/23 13:23:50.058 | INFO |  has been canceled.
+2026/03/23 13:23:50.299 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:25:42.218 | INFO | NationCode Changed: ko
+2026/03/23 13:25:42.496 | INFO | Command sent: {
+  "lang": "ko",
+  "": ""
+}
+2026/03/23 13:25:43.297 | INFO |  has been canceled.
+2026/03/23 13:25:43.546 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:27:12.992 | INFO | NLog init completed.
+2026/03/23 13:27:13.041 | INFO | XML Init Completed.
+2026/03/23 13:27:13.170 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/23 13:27:13.180 | INFO | ProgramManager init completed
+2026/03/23 13:27:16.966 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/23 13:27:17.445 | INFO | NationCode Changed: zh
+2026/03/23 13:27:17.445 | INFO | Command sent: {
+  "lang": "zh"
+}
+2026/03/23 13:27:17.869 | INFO | GatheringState: Gathering
+2026/03/23 13:27:17.972 | INFO | Offer SDP length: 4705
+2026/03/23 13:27:17.980 | INFO | GatheringState: Complete

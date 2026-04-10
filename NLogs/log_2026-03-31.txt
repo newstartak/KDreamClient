@@ -1,0 +1,149 @@
+2026/03/31 13:15:53.376 | INFO | NLog init completed.
+2026/03/31 13:15:53.440 | INFO | XML Init Completed.
+2026/03/31 13:15:53.956 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/31 13:15:53.966 | INFO | ProgramManager init completed
+2026/03/31 13:15:57.835 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/31 13:16:00.191 | DEBUG | test mode unlocking 1/3
+2026/03/31 13:16:02.104 | DEBUG | test mode unlocking 2/3
+2026/03/31 13:16:02.270 | DEBUG | test mode unlock failed
+2026/03/31 13:16:02.423 | DEBUG | test mode unlock failed
+2026/03/31 13:16:02.581 | DEBUG | test mode unlock failed
+2026/03/31 13:16:05.438 | DEBUG | test mode unlocking 1/3
+2026/03/31 13:16:07.220 | DEBUG | test mode unlocking 2/3
+2026/03/31 13:16:08.997 | DEBUG | test mode unlocked 3/3
+2026/03/31 13:16:08.997 | DEBUG | Test Mode: True
+2026/03/31 13:16:09.914 | INFO | NationCode Changed: ko
+2026/03/31 13:16:09.914 | INFO | Command sent: {
+  "lang": "ko"
+}
+2026/03/31 13:16:13.423 | INFO | Gender Selected: M
+2026/03/31 13:16:14.486 | INFO | code added: 
+2026/03/31 13:16:15.492 | INFO | code added: IL
+2026/03/31 13:16:16.531 | INFO | code added: 
+2026/03/31 13:16:17.607 | INFO | code added: R
+2026/03/31 13:16:18.675 | INFO | code added: J
+2026/03/31 13:16:33.013 | INFO | redis get AI complete
+2026/03/31 13:16:33.013 | INFO | ai complete execute
+2026/03/31 13:16:33.148 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/31 13:16:33.768 | INFO | Upload Completed: https://storage.googleapis.com/kdream/03316349f10758
+2026/03/31 13:16:37.706 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/31 13:16:38.886 | INFO | NationCode Changed: en
+2026/03/31 13:16:39.162 | INFO | Command sent: {
+  "lang": "en"
+}
+2026/03/31 13:16:42.316 | INFO | Gender Selected: M
+2026/03/31 13:16:43.506 | INFO | code added: 
+2026/03/31 13:16:44.516 | INFO | code added: EM
+2026/03/31 13:16:45.611 | INFO | code added: 
+2026/03/31 13:16:46.734 | INFO | code added: T
+2026/03/31 13:16:47.838 | INFO | code added: P
+2026/03/31 13:17:15.366 | INFO | redis get AI START
+2026/03/31 13:17:15.367 | INFO | AI START execute
+2026/03/31 13:17:15.367 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/03/31 13:17:18.391 | INFO | redis get AI complete
+2026/03/31 13:17:18.391 | INFO | ai complete execute
+2026/03/31 13:17:18.424 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/31 13:17:18.541 | INFO | Upload Completed: https://storage.googleapis.com/kdream/0331dcdfd80dbe
+2026/03/31 13:17:22.093 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/31 13:17:23.010 | INFO | NationCode Changed: zh
+2026/03/31 13:17:23.283 | INFO | Command sent: {
+  "lang": "zh"
+}
+2026/03/31 13:17:24.457 | INFO | redis get AI START
+2026/03/31 13:17:24.457 | INFO | AI START execute
+2026/03/31 13:17:24.460 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/03/31 13:17:27.559 | INFO | redis get AI complete
+2026/03/31 13:17:27.559 | INFO | ai complete execute
+2026/03/31 13:17:27.592 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/31 13:17:27.716 | INFO | Upload Completed: https://storage.googleapis.com/kdream/0331a242a1124c
+2026/03/31 13:17:29.526 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/31 13:17:30.271 | INFO | NationCode Changed: zh
+2026/03/31 13:17:30.554 | INFO | Command sent: {
+  "lang": "zh"
+}
+2026/03/31 13:17:33.599 | INFO | Gender Selected: M
+2026/03/31 13:17:34.630 | INFO | code added: 
+2026/03/31 13:17:35.718 | INFO | code added: IL
+2026/03/31 13:17:36.788 | INFO | code added: 
+2026/03/31 13:17:37.869 | INFO | code added: R
+2026/03/31 13:17:38.893 | INFO | code added: J
+2026/03/31 13:17:48.063 | INFO | redis get AI complete
+2026/03/31 13:17:48.063 | INFO | ai complete execute
+2026/03/31 13:17:48.094 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/31 13:17:48.200 | INFO | Upload Completed: https://storage.googleapis.com/kdream/0331f4df3cb855
+2026/03/31 13:17:51.184 | INFO | redis get AI START
+2026/03/31 13:17:51.184 | INFO | AI START execute
+2026/03/31 13:17:51.184 | INFO | Command sent: {
+  "step": "AI_START",
+  "data": ""
+}
+2026/03/31 13:17:52.154 | INFO | Command sent: {
+  "step": "INIT",
+  "data": ""
+}
+2026/03/31 13:17:54.582 | INFO | NationCode Changed: ja
+2026/03/31 13:17:54.846 | INFO | Command sent: {
+  "lang": "ja"
+}
+2026/03/31 13:17:58.134 | INFO | Gender Selected: M
+2026/03/31 13:17:59.275 | INFO | code added: 
+2026/03/31 13:18:00.443 | INFO | code added: IL
+2026/03/31 13:18:01.655 | INFO | code added: 
+2026/03/31 13:18:03.479 | INFO | code added: R
+2026/03/31 13:18:04.647 | INFO | code added: J
+2026/03/31 13:18:14.833 | INFO | redis get AI complete
+2026/03/31 13:18:14.836 | INFO | ai complete execute
+2026/03/31 13:18:14.866 | INFO | Command sent: {
+  "step": "AI_COMPLETE",
+  "data": {
+    "path": "C:\\xorbis\\Company\\Project\\K-Dream\\result\\Step3_PNG\\final_image.png",
+    "job": "임금"
+  }
+}
+2026/03/31 13:18:14.980 | INFO | Upload Completed: https://storage.googleapis.com/kdream/0331f52ab706fa
+2026/03/31 13:36:07.967 | INFO | NLog init completed.
+2026/03/31 13:36:08.056 | INFO | XML Init Completed.
+2026/03/31 13:36:08.518 | INFO | Redis server connected: 192.168.1.164:6379
+2026/03/31 13:36:08.525 | INFO | ProgramManager init completed
