@@ -11,7 +11,7 @@
 <img width="450" height="820" alt="image" src="https://github.com/user-attachments/assets/15be57db-8690-4a1b-8d40-440d97435300" />
 <br>
 <br>
-<h2>사진 촬영</h2>h2>
+<h2>사진 촬영</h2>
 <br>
 <img width="450" height="820" alt="image" src="https://github.com/user-attachments/assets/0ea06413-7b5c-4303-8b0a-e32c6de34e8a" />
 <br>
